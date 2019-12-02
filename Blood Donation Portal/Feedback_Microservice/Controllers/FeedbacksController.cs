@@ -31,6 +31,16 @@ namespace Feedback_Microservice.Controllers
             return await _context.Feedbacks.ToListAsync();
         }
 
+        //POST: api/Feedbacks
+        [HttpPost]
+        public async Task<ActionResult<Feedback>> PostFeedback(Feedback feedback)
+        {
+            _context.Feedbacks.Add(feedback);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction("GetFeedback", new { id = feedback.Id }, feedback);
+        }
+
         private bool FeedbackExists(Guid id)
         {
             return _context.Feedbacks.Any(e => e.Id == id);
