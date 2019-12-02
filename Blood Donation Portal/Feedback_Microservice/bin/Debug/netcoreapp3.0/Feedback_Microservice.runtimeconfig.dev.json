@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\calin.sticea\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\calin.sticea\\.nuget\\packages"
+    ]
+  }
+}

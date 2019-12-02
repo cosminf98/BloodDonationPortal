@@ -485,23 +485,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cosmin S\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\calin.sticea\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\API_Gateway\\API_Gateway.csproj",
+      "projectUniqueName": "C:\\Users\\calin.sticea\\Documents\\project\\blood\\Blood Donation Portal\\API_Gateway\\API_Gateway.csproj",
       "projectName": "API_Gateway",
-      "projectPath": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\API_Gateway\\API_Gateway.csproj",
-      "packagesPath": "C:\\Users\\Cosmin S\\.nuget\\packages\\",
-      "outputPath": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\API_Gateway\\obj\\",
+      "projectPath": "C:\\Users\\calin.sticea\\Documents\\project\\blood\\Blood Donation Portal\\API_Gateway\\API_Gateway.csproj",
+      "packagesPath": "C:\\Users\\calin.sticea\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\calin.sticea\\Documents\\project\\blood\\Blood Donation Portal\\API_Gateway\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Cosmin S\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\calin.sticea\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
