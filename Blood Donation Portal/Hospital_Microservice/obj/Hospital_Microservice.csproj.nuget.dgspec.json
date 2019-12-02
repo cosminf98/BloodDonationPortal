@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Facultate\\.NET - Introducere\\Blood Donation Project\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj": {}
+    "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj": {}
   },
   "projects": {
-    "E:\\Facultate\\.NET - Introducere\\Blood Donation Project\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj": {
+    "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\Blood Donation Project\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj",
+        "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj",
         "projectName": "Hospital_Microservice",
-        "projectPath": "E:\\Facultate\\.NET - Introducere\\Blood Donation Project\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj",
+        "projectPath": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj",
         "packagesPath": "C:\\Users\\Cosmin S\\.nuget\\packages\\",
-        "outputPath": "E:\\Facultate\\.NET - Introducere\\Blood Donation Project\\Blood Donation Portal\\Hospital_Microservice\\obj\\",
+        "outputPath": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Hospital_Microservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

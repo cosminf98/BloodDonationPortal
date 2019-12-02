@@ -8,6 +8,5 @@ namespace Donor_Microservice.Services
 {
     public interface IDonorService
     {
-        Task<IEnumerable<Hospital>> GetNearbyHospitalsAsync(string city);
     }
 }

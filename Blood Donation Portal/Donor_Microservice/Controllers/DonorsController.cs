@@ -32,30 +32,19 @@ namespace Donor_Microservice.Controllers
             return await _context.Donors.ToListAsync();
         }
 
-        //GET: api/donors/city
-        [HttpGet("{city}")]
-        public async Task<ActionResult<IEnumerable<Hospital>>> GetNearbyHospitals(string city)
+        //GET: api/Donors/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Donor>> GetDonor(Guid id)
         {
-            var hospitals = await _service.GetNearbyHospitalsAsync(city);
-            if (hospitals == null)
+            var donor = await _context.Donors.FindAsync(id);
+
+            if (donor == null)
+            {
                 return NotFound();
-            return hospitals.ToList();
+            }
+
+            return donor;
         }
-
-
-        // GET: api/Donors/5
-        //[HttpGet("{id}")]
-        //public async Task<ActionResult<Donor>> GetDonor(Guid id)
-        //{
-        //    var donor = await _context.Donors.FindAsync(id);
-
-        //    if (donor == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return donor;
-        //}
 
         //// PUT: api/Donors/5
         //// To protect from overposting attacks, please enable the specific properties you want to bind to, for

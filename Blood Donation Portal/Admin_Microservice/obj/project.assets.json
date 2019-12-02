@@ -8163,11 +8163,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\Blood Donation Project\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj",
+      "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj",
       "projectName": "Admin_Microservice",
-      "projectPath": "E:\\Facultate\\.NET - Introducere\\Blood Donation Project\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj",
+      "projectPath": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj",
       "packagesPath": "C:\\Users\\Cosmin S\\.nuget\\packages\\",
-      "outputPath": "E:\\Facultate\\.NET - Introducere\\Blood Donation Project\\Blood Donation Portal\\Admin_Microservice\\obj\\",
+      "outputPath": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Admin_Microservice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
