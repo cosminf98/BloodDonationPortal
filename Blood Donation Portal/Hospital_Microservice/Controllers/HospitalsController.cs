@@ -36,8 +36,7 @@ namespace Hospital_Microservice.Controllers
         public async Task<ActionResult<IEnumerable<Hospital>>> GetHospitalsByCity(string city)
         {
             var cities = await _service.GetHospitalsByCityAsync(city);
-            if (cities == null)
-                return NotFound();
+            if (cities == null) return NotFound();
 
             return cities.ToList();
         }

@@ -1,6 +1,10 @@
 ﻿using System;
 using Admin_Microservice.Models;
 using Admin_Microservice.Persistence.Contexts;
+using Feedback_Microservice.Models;
+using Feedback_Microservice.Persistence.Contexts;
+using Feedback_Microservice.Persistence.Repositories;
+using Feedback_Microservice.Services;
 
 namespace ConsoleApp1
 {
@@ -8,20 +12,22 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            //FeedbackDbContext context = new FeedbackDbContext();
+            //IFeedbackService service = new FeedbackService(new FeedbackRepository(context));
 
-            //AdminDbContext context = new AdminDbContext();
-            //Admin admin = new Admin();
-            //Admin_Microservice.Models.LoginDetails login = new Admin_Microservice.Models.LoginDetails();
-            //login.Email = "gigel@gigel.ro";
-            //login.Password = "hash123";
-            //admin.LoginDetails = login;
+            //Feedback feedback = new Feedback();
+            //feedback.Email = "testemail";
+            //feedback.Message = "message";
 
-            //context.Admins.Add(admin);
-            //context.SaveChanges();
+            //service.AddFeedbackAsync(feedback);
+            //Console.WriteLine(feedback.Id);
 
-            //foreach (var donor2 in context.Admins)
-            //    Console.WriteLine(donor2.Id + donor2.LoginDetails.Email);
-            //Console.WriteLine("da");
+            ////foreach(Feedback feed in context.Feedbacks)
+            ////    Console.WriteLine(feed.Id + " " + feed.Message);
+            ////Console.WriteLine("da");
+
+
+
         }
     }
 }

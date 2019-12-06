@@ -252,3 +252,6 @@ E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\ConsoleApp1\
 E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\ConsoleApp1\obj\Debug\netcoreapp3.0\ConsoleApp1.csproj.CopyComplete
 E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\ConsoleApp1\obj\Debug\netcoreapp3.0\ConsoleApp1.dll
 E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\ConsoleApp1\obj\Debug\netcoreapp3.0\ConsoleApp1.pdb
+E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\ConsoleApp1\bin\Debug\netcoreapp3.0\Feedback_Microservice.dll
+E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\ConsoleApp1\bin\Debug\netcoreapp3.0\Feedback_Microservice.pdb
+E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\ConsoleApp1\bin\Debug\netcoreapp3.0\Feedback_Microservice.exe
