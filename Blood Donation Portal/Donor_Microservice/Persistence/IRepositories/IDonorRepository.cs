@@ -1,4 +1,6 @@
-﻿using Hospital_Microservice.Models;
+﻿using Donor_Microservice.Models;
+using Hospital_Microservice.Models;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -6,6 +8,7 @@ namespace Donor_Microservice.Persistence.IRepositories
 {
     public interface IDonorRepository
     {
-        //Task<IEnumerable<Hospital>> GetNearbyHospitalsAsync();
+        public Task<Donation> AddDonationToDonorHistoryAsync(string email, Donation donation);
+        public Task<IEnumerable<Donation>> GetDonorHistory(Guid id);
     }
 }

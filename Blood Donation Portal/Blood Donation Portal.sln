@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admin_Microservice", "Admin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API_Gateway", "API_Gateway\API_Gateway.csproj", "{C1624DBB-1490-467F-94F2-F7A56AEA6EB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feedback_Microservice", "Feedback_Microservice\Feedback_Microservice.csproj", "{BE912B97-4601-4E04-9536-C1674B270CEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feedback_Microservice", "Feedback_Microservice\Feedback_Microservice.csproj", "{BE912B97-4601-4E04-9536-C1674B270CEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications_Microservice", "Notifications_Microservice\Notifications_Microservice.csproj", "{EFFF5CDD-D262-491B-9527-6C2AA69C5F6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{BE912B97-4601-4E04-9536-C1674B270CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE912B97-4601-4E04-9536-C1674B270CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE912B97-4601-4E04-9536-C1674B270CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFFF5CDD-D262-491B-9527-6C2AA69C5F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFFF5CDD-D262-491B-9527-6C2AA69C5F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFFF5CDD-D262-491B-9527-6C2AA69C5F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFFF5CDD-D262-491B-9527-6C2AA69C5F6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

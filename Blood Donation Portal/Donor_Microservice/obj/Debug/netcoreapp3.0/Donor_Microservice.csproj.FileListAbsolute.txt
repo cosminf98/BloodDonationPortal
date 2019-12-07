@@ -244,11 +244,14 @@ E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\Donor_Micros
 E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\Donor_Microservice\obj\Debug\netcoreapp3.0\Donor_Microservice.csprojAssemblyReference.cache
 E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\Donor_Microservice\obj\Debug\netcoreapp3.0\staticwebassets\Donor_Microservice.StaticWebAssets.Manifest.cache
 E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\Donor_Microservice\obj\Debug\netcoreapp3.0\staticwebassets\Donor_Microservice.StaticWebAssets.xml
-E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\Donor_Microservice\obj\Debug\netcoreapp3.0\Donor_Microservice.MvcApplicationPartsAssemblyInfo.cs
-E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\Donor_Microservice\obj\Debug\netcoreapp3.0\Donor_Microservice.MvcApplicationPartsAssemblyInfo.cache
 E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\Donor_Microservice\obj\Debug\netcoreapp3.0\Donor_Microservice.AssemblyInfoInputs.cache
 E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\Donor_Microservice\obj\Debug\netcoreapp3.0\Donor_Microservice.AssemblyInfo.cs
 E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\Donor_Microservice\obj\Debug\netcoreapp3.0\Donor_Microservice.RazorTargetAssemblyInfo.cache
 E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\Donor_Microservice\obj\Debug\netcoreapp3.0\Donor_Microservice.csproj.CopyComplete
 E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\Donor_Microservice\obj\Debug\netcoreapp3.0\Donor_Microservice.dll
 E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\Donor_Microservice\obj\Debug\netcoreapp3.0\Donor_Microservice.pdb
+E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\Donor_Microservice\bin\Debug\netcoreapp3.0\Feedback_Microservice.exe
+E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\Donor_Microservice\bin\Debug\netcoreapp3.0\Feedback_Microservice.dll
+E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\Donor_Microservice\bin\Debug\netcoreapp3.0\Feedback_Microservice.pdb
+E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\Donor_Microservice\obj\Debug\netcoreapp3.0\Donor_Microservice.MvcApplicationPartsAssemblyInfo.cs
+E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\Donor_Microservice\obj\Debug\netcoreapp3.0\Donor_Microservice.MvcApplicationPartsAssemblyInfo.cache

@@ -2,13 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Donor_Microservice.Models;
 using Donor_Microservice.Persistence;
 using Donor_Microservice.Services;
-using Hospital_Microservice.Models;
 
 namespace Donor_Microservice.Controllers
 {
@@ -44,6 +42,28 @@ namespace Donor_Microservice.Controllers
             }
 
             return donor;
+        }
+
+        //GET: api/Donors/5
+        [HttpGet("gethistory/{id}")]
+        public async Task<ActionResult<IEnumerable<Donation>>> GetHistory(Guid id)
+        {
+            var history = await _service.GetDonorHistory(id);
+            if (history == null)
+            {
+                //history.Add(new Donation());
+                return NotFound();
+            }
+
+            return history.ToList();
+        }
+
+        //POST: api/donors/addtohistory/email
+        [HttpPost("addtohistory/{email}")]
+        public async Task<ActionResult<Donor>> PostDonation(string email, [FromBody] Donation donation)
+        {
+            await _service.AddDonationToDonorHistoryAsync(email, donation);
+            return Ok();
         }
 
         //// PUT: api/Donors/5

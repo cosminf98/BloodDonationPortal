@@ -1,5 +1,7 @@
-﻿using Donor_Microservice.Persistence.IRepositories;
+﻿using Donor_Microservice.Models;
+using Donor_Microservice.Persistence.IRepositories;
 using Hospital_Microservice.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,11 +13,18 @@ namespace Donor_Microservice.Persistence.Repositories
     {
         public DonorRepository(DonorDbContext context) : base(context) {}
 
-        //public Task<IEnumerable<Hospital>> GetNearbyHospitalsAsync()
-        //{
+        public async Task<Donation> AddDonationToDonorHistoryAsync(string email, Donation donation)
+        {
+            Donor donor = _context.Donors.Where(d => d.LoginDetails.Email.ToLower().Equals(email.ToLower())).Single();
+            donor.DonationsHistory.Add(donation);
+            await _context.SaveChangesAsync();
+            return donation;
+        }
 
-
-        //    throw new NotImplementedException();
-        //}
+        public async Task<IEnumerable<Donation>> GetDonorHistory(Guid id)
+        {
+            var history = await _context.Donations.Where(don => don.DonorId == id).ToListAsync();
+            return history.ToList();
+        }
     }
 }

@@ -33,9 +33,9 @@ namespace Donor_Microservice.Persistence
             builder.Entity<Donor>()
                 .HasKey(d => d.Id);
             builder.Entity<LoginDetails>()
-                .HasKey(lg => lg.DonorId);
+                .HasKey(lg => lg.Id);
             builder.Entity<Donation>()
-                .HasKey(d => d.DonorId);
+                .HasKey(d => d.Id);
 
             //Setting Constraints
             builder.Entity<Donor>().Property("BloodType").IsRequired().HasMaxLength(3);

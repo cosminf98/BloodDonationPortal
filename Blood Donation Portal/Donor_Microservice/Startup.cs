@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System.Text.Json.Serialization;
 using Microsoft.Extensions.Hosting;
 
 namespace Donor_Microservice
@@ -33,6 +34,7 @@ namespace Donor_Microservice
 
             services.AddScoped<IDonorRepository, DonorRepository>();
             services.AddScoped<IDonorService, DonorService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
