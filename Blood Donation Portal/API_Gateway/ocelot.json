@@ -1,0 +1,62 @@
+﻿{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/hospitals",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44301
+        }
+      ],
+      "UpstreamPathTemplate": "/api/hospitals",
+      "UpstreamHttpMethod": [],
+      "Key":  "all-hospitals"
+    },
+    {
+      "DownstreamPathTemplate": "/api/hospitals/{city}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44301
+        }
+      ],
+      "UpstreamPathTemplate": "/api/hospitals/{city}",
+      "UpstreamHttpMethod": [],
+      "Key": "city-hospitals"
+    },
+    {
+      "DownstreamPathTemplate": "/api/donors/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44302
+        }
+      ],
+      "UpstreamPathTemplate": "/api/donors/{id}",
+      "UpstreamHttpMethod": [],
+      "Key": "donor-account"
+    }
+  ],
+  "Aggregates": [
+    {
+      "ReRouteKeys": [
+        "donor-account",
+        "all-hospitals"
+      ],
+      "UpstreamPathTemplate": "/api/donor/{id}/hospitals"
+    },
+    {
+      "ReRouteKeys": [
+        "city-hospitals",
+        "donor-account"
+      ],
+      "UpstreamPathTemplate": "/api/donor/{id}/hospitals/{city}"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:44300"
+  }
+}
