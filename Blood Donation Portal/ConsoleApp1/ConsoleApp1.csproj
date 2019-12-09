@@ -12,7 +12,9 @@
   <ItemGroup>
     <ProjectReference Include="..\Admin_Microservice\Admin_Microservice.csproj" />
     <ProjectReference Include="..\Donor_Microservice\Donor_Microservice.csproj" />
+    <ProjectReference Include="..\Feedback_Microservice\Feedback_Microservice.csproj" />
     <ProjectReference Include="..\Hospital_Microservice\Hospital_Microservice.csproj" />
+    <ProjectReference Include="..\Notifications_Microservice\Notifications_Microservice.csproj" />
   </ItemGroup>
 
 </Project>

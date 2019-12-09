@@ -774,7 +774,7 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Newtonsoft.Json/11.0.2": {
+      "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -2529,18 +2529,39 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
+          "Feedback_Microservice": "1.0.0",
           "Hospital_Microservice": "1.0.0",
           "Microsoft.AspNet.WebApi.Client": "5.2.7",
           "Microsoft.EntityFrameworkCore": "3.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.0.1",
           "Microsoft.Extensions.Logging.Debug": "3.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.0.0"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.0.0",
+          "Newtonsoft.Json": "12.0.3"
         },
         "compile": {
           "bin/placeholder/Donor_Microservice.dll": {}
         },
         "runtime": {
           "bin/placeholder/Donor_Microservice.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Feedback_Microservice/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.0.1",
+          "Microsoft.Extensions.Logging.Debug": "3.0.0",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Feedback_Microservice.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Feedback_Microservice.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -2560,6 +2581,24 @@
         },
         "runtime": {
           "bin/placeholder/Hospital_Microservice.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Notifications_Microservice/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.0.1",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Notifications_Microservice.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Notifications_Microservice.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -3735,10 +3774,15 @@
         "netstandard.library.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Newtonsoft.Json/11.0.2": {
       "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+=======
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+>>>>>>> b38d33a8452fa29fb8351955bc41f1e53db1e37c
       "type": "package",
-      "path": "newtonsoft.json/11.0.2",
+      "path": "newtonsoft.json/12.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3761,8 +3805,9 @@
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.11.0.2.nupkg.sha512",
-        "newtonsoft.json.nuspec"
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "Newtonsoft.Json.Bson/1.0.1": {
@@ -8182,18 +8227,30 @@
       "path": "../Donor_Microservice/Donor_Microservice.csproj",
       "msbuildProject": "../Donor_Microservice/Donor_Microservice.csproj"
     },
+    "Feedback_Microservice/1.0.0": {
+      "type": "project",
+      "path": "../Feedback_Microservice/Feedback_Microservice.csproj",
+      "msbuildProject": "../Feedback_Microservice/Feedback_Microservice.csproj"
+    },
     "Hospital_Microservice/1.0.0": {
       "type": "project",
       "path": "../Hospital_Microservice/Hospital_Microservice.csproj",
       "msbuildProject": "../Hospital_Microservice/Hospital_Microservice.csproj"
+    },
+    "Notifications_Microservice/1.0.0": {
+      "type": "project",
+      "path": "../Notifications_Microservice/Notifications_Microservice.csproj",
+      "msbuildProject": "../Notifications_Microservice/Notifications_Microservice.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "Admin_Microservice >= 1.0.0",
       "Donor_Microservice >= 1.0.0",
+      "Feedback_Microservice >= 1.0.0",
       "Hospital_Microservice >= 1.0.0",
-      "Microsoft.AspNet.WebApi.Client >= 5.2.7"
+      "Microsoft.AspNet.WebApi.Client >= 5.2.7",
+      "Notifications_Microservice >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8203,11 +8260,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "F:\\Facultate\\DotNet\\PRoiect\\BloodDonationPortal\\Blood Donation Portal\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
       "projectPath": "F:\\Facultate\\DotNet\\PRoiect\\BloodDonationPortal\\Blood Donation Portal\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "F:\\Facultate\\DotNet\\PRoiect\\BloodDonationPortal\\Blood Donation Portal\\ConsoleApp1\\obj\\",
+=======
+      "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\Cosmin S\\.nuget\\packages\\",
+      "outputPath": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\ConsoleApp1\\obj\\",
+>>>>>>> b38d33a8452fa29fb8351955bc41f1e53db1e37c
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8226,6 +8291,7 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
+<<<<<<< HEAD
             "F:\\Facultate\\DotNet\\PRoiect\\BloodDonationPortal\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj": {
               "projectPath": "F:\\Facultate\\DotNet\\PRoiect\\BloodDonationPortal\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj"
             },
@@ -8234,6 +8300,22 @@
             },
             "F:\\Facultate\\DotNet\\PRoiect\\BloodDonationPortal\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj": {
               "projectPath": "F:\\Facultate\\DotNet\\PRoiect\\BloodDonationPortal\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj"
+=======
+            "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj": {
+              "projectPath": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj"
+            },
+            "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj": {
+              "projectPath": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj"
+            },
+            "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj": {
+              "projectPath": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj"
+            },
+            "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj": {
+              "projectPath": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj"
+            },
+            "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj": {
+              "projectPath": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj"
+>>>>>>> b38d33a8452fa29fb8351955bc41f1e53db1e37c
             }
           }
         }

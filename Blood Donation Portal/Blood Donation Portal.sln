@@ -9,7 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Donor_Microservice", "Donor_Microservice\Donor_Microservice.csproj", "{BBF9025D-EBC4-4694-9E85-0123E0E31B33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin_Microservice", "Admin_Microservice\Admin_Microservice.csproj", "{94FBD1D4-968D-4A56-99E0-67743024904F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admin_Microservice", "Admin_Microservice\Admin_Microservice.csproj", "{94FBD1D4-968D-4A56-99E0-67743024904F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API_Gateway", "API_Gateway\API_Gateway.csproj", "{C1624DBB-1490-467F-94F2-F7A56AEA6EB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feedback_Microservice", "Feedback_Microservice\Feedback_Microservice.csproj", "{BE912B97-4601-4E04-9536-C1674B270CEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications_Microservice", "Notifications_Microservice\Notifications_Microservice.csproj", "{EFFF5CDD-D262-491B-9527-6C2AA69C5F6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{94FBD1D4-968D-4A56-99E0-67743024904F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94FBD1D4-968D-4A56-99E0-67743024904F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94FBD1D4-968D-4A56-99E0-67743024904F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1624DBB-1490-467F-94F2-F7A56AEA6EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1624DBB-1490-467F-94F2-F7A56AEA6EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1624DBB-1490-467F-94F2-F7A56AEA6EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1624DBB-1490-467F-94F2-F7A56AEA6EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE912B97-4601-4E04-9536-C1674B270CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE912B97-4601-4E04-9536-C1674B270CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE912B97-4601-4E04-9536-C1674B270CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE912B97-4601-4E04-9536-C1674B270CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFFF5CDD-D262-491B-9527-6C2AA69C5F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFFF5CDD-D262-491B-9527-6C2AA69C5F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFFF5CDD-D262-491B-9527-6C2AA69C5F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFFF5CDD-D262-491B-9527-6C2AA69C5F6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
