@@ -12,8 +12,7 @@
           "Donor_Microservice": "1.0.0",
           "Feedback_Microservice": "1.0.0",
           "Hospital_Microservice": "1.0.0",
-          "Microsoft.AspNet.WebApi.Client": "5.2.7",
-          "Notifications_Microservice": "1.0.0"
+          "Microsoft.AspNet.WebApi.Client": "5.2.7"
         },
         "runtime": {
           "ConsoleApp1.dll": {}
@@ -1737,16 +1736,6 @@
         "runtime": {
           "Hospital_Microservice.dll": {}
         }
-      },
-      "Notifications_Microservice/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.0.1",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.0.1",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.0.0"
-        },
-        "runtime": {
-          "Notifications_Microservice.dll": {}
-        }
       }
     }
   },
@@ -2836,11 +2825,6 @@
       "sha512": ""
     },
     "Hospital_Microservice/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Notifications_Microservice/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

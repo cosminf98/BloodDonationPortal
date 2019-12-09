@@ -255,6 +255,3 @@ E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\ConsoleApp1\
 E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\ConsoleApp1\bin\Debug\netcoreapp3.0\Feedback_Microservice.dll
 E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\ConsoleApp1\bin\Debug\netcoreapp3.0\Feedback_Microservice.pdb
 E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\ConsoleApp1\bin\Debug\netcoreapp3.0\Feedback_Microservice.exe
-E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\ConsoleApp1\bin\Debug\netcoreapp3.0\Notifications_Microservice.exe
-E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\ConsoleApp1\bin\Debug\netcoreapp3.0\Notifications_Microservice.dll
-E:\Facultate\.NET - Introducere\Blood_Project\Blood Donation Portal\ConsoleApp1\bin\Debug\netcoreapp3.0\Notifications_Microservice.pdb
