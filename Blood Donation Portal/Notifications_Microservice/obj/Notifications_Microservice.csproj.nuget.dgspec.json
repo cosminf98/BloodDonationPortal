@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj": {}
+    "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj": {}
   },
   "projects": {
-    "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj": {
+    "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj",
+        "projectUniqueName": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj",
         "projectName": "Notifications_Microservice",
-        "projectPath": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj",
-        "packagesPath": "C:\\Users\\Cosmin S\\.nuget\\packages\\",
-        "outputPath": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Notifications_Microservice\\obj\\",
+        "projectPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Notifications_Microservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Cosmin S\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,26 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

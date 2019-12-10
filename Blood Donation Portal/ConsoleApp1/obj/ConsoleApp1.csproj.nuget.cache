@@ -1,13 +1,5 @@
 {
   "version": 1,
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "dgSpecHash": "magLZkCIlLXtzUf/AOfGzdPUmEyFVQ+PzvTR4JCTGasNVma+4rwPL9SqHj+7wxQoQO3U2DWLHUPF+v2Jpu4Fkw==",
-=======
-  "dgSpecHash": "R6OqR47Koq2EXbK6h01vEXAalEiMl/28vRjI+jREFwn3GeWdluLLq03SEHQ8jhB4PcyEtARYmpVU3OuoWmGF4A==",
->>>>>>> b38d33a8452fa29fb8351955bc41f1e53db1e37c
-=======
-  "dgSpecHash": "s0DRVWAfPFRNZuG6H+5Z8ck5mRi5qKpEhI2cuXLYXtmbWXrvov/mS7flziHe2WW8TGFp9hKeSHmzkCw4/8g8Gg==",
->>>>>>> parent of c843ace... added notifyUserWhenBloodIsUsed functionality
+  "dgSpecHash": "f0n2bg/v+IB7Sn6fd3QccXzw8ARTSYdEJ8uncSevvXT26pbZkc8BQEC28hKmXN0MsSJR1HGQBTrtjRNrKLU2Zg==",
   "success": true
 }

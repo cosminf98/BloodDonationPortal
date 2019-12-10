@@ -1,31 +1,17 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "F:\\Facultate\\DotNet\\PRoiect\\BloodDonationPortal\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj": {}
+    "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj": {}
   },
   "projects": {
-    "F:\\Facultate\\DotNet\\PRoiect\\BloodDonationPortal\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj": {
+    "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Facultate\\DotNet\\PRoiect\\BloodDonationPortal\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj",
+        "projectUniqueName": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj",
         "projectName": "Admin_Microservice",
-        "projectPath": "F:\\Facultate\\DotNet\\PRoiect\\BloodDonationPortal\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj",
+        "projectPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "F:\\Facultate\\DotNet\\PRoiect\\BloodDonationPortal\\Blood Donation Portal\\Admin_Microservice\\obj\\",
-=======
-    "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj": {}
-  },
-  "projects": {
-    "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj",
-        "projectName": "Admin_Microservice",
-        "projectPath": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj",
-        "packagesPath": "C:\\Users\\Cosmin S\\.nuget\\packages\\",
-        "outputPath": "E:\\Facultate\\.NET - Introducere\\Blood_Project\\Blood Donation Portal\\Admin_Microservice\\obj\\",
->>>>>>> b38d33a8452fa29fb8351955bc41f1e53db1e37c
+        "outputPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Admin_Microservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -67,25 +53,12 @@
               "target": "Package",
               "version": "[3.0.1, )"
             },
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of c843ace... added notifyUserWhenBloodIsUsed functionality
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.0.1, )"
             },
-<<<<<<< HEAD
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[3.1.0, )"
-            },
-=======
->>>>>>> b38d33a8452fa29fb8351955bc41f1e53db1e37c
-=======
->>>>>>> parent of c843ace... added notifyUserWhenBloodIsUsed functionality
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.0.0, )"
