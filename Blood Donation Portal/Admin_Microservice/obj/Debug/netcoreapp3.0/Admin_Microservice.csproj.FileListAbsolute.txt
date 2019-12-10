@@ -360,10 +360,12 @@ F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\bin\Debu
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.csprojAssemblyReference.cache
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\staticwebassets\Admin_Microservice.StaticWebAssets.Manifest.cache
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\staticwebassets\Admin_Microservice.StaticWebAssets.xml
-F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.MvcApplicationPartsAssemblyInfo.cache
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.AssemblyInfoInputs.cache
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.AssemblyInfo.cs
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.RazorTargetAssemblyInfo.cache
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.csproj.CopyComplete
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.dll
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.pdb
+F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\bin\Debug\netcoreapp3.0\emailData.json
+F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.MvcApplicationPartsAssemblyInfo.cache

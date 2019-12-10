@@ -1,0 +1,13 @@
+{
+  "Gmail": {
+    "Host": "smtp.gmail.com",
+    "Port": 587,
+    "Username": "UAIC.netblooddonor",
+    "Password": "bl00ddonor",
+    "SMTP": {
+      "starttls": {
+        "enable": true
+      }
+    }
+  }
+}
