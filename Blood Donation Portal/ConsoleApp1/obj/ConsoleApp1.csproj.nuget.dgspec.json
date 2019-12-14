@@ -63,6 +63,10 @@
               "target": "Package",
               "version": "[3.1.0, )"
             },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.0.0, )"
@@ -456,7 +460,11 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj": {
+                "projectPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -481,6 +489,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

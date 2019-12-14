@@ -41,6 +41,7 @@ namespace Donor_Microservice.Persistence
             builder.Entity<Donor>().Property("BloodType").IsRequired().HasMaxLength(3);
             builder.Entity<Donor>().Property("Gender").IsRequired().HasMaxLength(1);
             builder.Entity<Donor>().Property("City").IsRequired();
+            builder.Entity<Donor>().Property("Country").IsRequired();
 
             builder.Entity<LoginDetails>().Property("Email").IsRequired();
             builder.Entity<LoginDetails>().Property("Email").IsRequired().HasMaxLength(64);

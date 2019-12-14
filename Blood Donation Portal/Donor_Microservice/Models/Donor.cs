@@ -18,6 +18,7 @@ namespace Donor_Microservice.Models
         public DateTime DateOfBirth { get; set; }
         public string BloodType { get; set; }
         public string City { get; set; }
+        public string Country { get; set; }
         public bool IsElligible { get; set; }
 
         //public Guid LoginDetailsId { get; set; }

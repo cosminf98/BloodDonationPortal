@@ -2,6 +2,7 @@
 using System.Threading;
 using Notifications_Microservice.Models;
 using Notifications_Microservice.Persistence.Contexts;
+using Notifications_Microservice.Services;
 
 namespace ConsoleApp1
 {
@@ -27,6 +28,7 @@ namespace ConsoleApp1
             context.PublicNotifications.Add(pn2);
             context.SaveChanges();
 
+            
             foreach(var x in context.PrivateNotifications)
                 Console.WriteLine(x.CreatedAt);
         }

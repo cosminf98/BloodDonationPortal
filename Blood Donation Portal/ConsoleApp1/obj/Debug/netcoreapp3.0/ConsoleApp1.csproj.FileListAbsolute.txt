@@ -391,5 +391,5 @@ F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\ConsoleApp1\obj\Debug\netco
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\ConsoleApp1\obj\Debug\netcoreapp3.0\ConsoleApp1.csproj.CopyComplete
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\ConsoleApp1\obj\Debug\netcoreapp3.0\ConsoleApp1.dll
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\ConsoleApp1\obj\Debug\netcoreapp3.0\ConsoleApp1.pdb
-F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\ConsoleApp1\bin\Debug\netcoreapp3.0\emailData.json
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\ConsoleApp1\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\ConsoleApp1\bin\Debug\netcoreapp3.0\Persistence\IRepositories\EmailInfo.json
