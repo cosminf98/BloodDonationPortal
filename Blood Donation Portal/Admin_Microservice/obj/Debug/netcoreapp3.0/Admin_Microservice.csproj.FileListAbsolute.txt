@@ -366,5 +366,6 @@ F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debu
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.csproj.CopyComplete
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.dll
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.pdb
+F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\bin\Debug\netcoreapp3.0\emailData.json
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.MvcApplicationPartsAssemblyInfo.cache

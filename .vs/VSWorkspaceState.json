@@ -1,14 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Blood Donation Portal",
-    "\\Blood Donation Portal\\Notifications_Microservice",
-    "\\Blood Donation Portal\\Notifications_Microservice\\Controllers",
-    "\\Blood Donation Portal\\Notifications_Microservice\\Models",
-    "\\Blood Donation Portal\\Notifications_Microservice\\Persistence",
-    "\\Blood Donation Portal\\Notifications_Microservice\\Persistence\\IRepositories",
-    "\\Blood Donation Portal\\Notifications_Microservice\\Persistence\\Repositories"
+    "\\Architecture",
+    "\\Blood Donation Portal"
   ],
-  "SelectedNode": "\\Blood Donation Portal\\Notifications_Microservice\\Controllers\\PrivateNotificationsController.cs",
+  "SelectedNode": "\\Blood Donation Portal\\Blood Donation Portal.sln",
   "PreviewInSolutionExplorer": false
 }

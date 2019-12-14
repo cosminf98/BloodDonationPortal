@@ -14,9 +14,7 @@ namespace Notifications_Microservice.Persistence.IRepositories
 
         public async Task<IEnumerable<PrivateNotification>> GetNotifications(string email)
         {
-            var userNotifications =  await _context.PrivateNotifications.Where(n => n.DonorEmail.ToLower()
-                                                                                                .Equals(email.ToLower()))
-                                                                                                .ToListAsync();
+            var userNotifications =  await _context.PrivateNotifications.Where(n => n.DonorEmail.ToLower().Equals(email.ToLower())).ToListAsync();
             return userNotifications;
         }
 
