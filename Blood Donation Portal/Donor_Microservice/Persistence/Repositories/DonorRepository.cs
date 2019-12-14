@@ -1,6 +1,6 @@
 ﻿using Donor_Microservice.Models;
 using Donor_Microservice.Persistence.IRepositories;
-using Hospital_Microservice.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -31,6 +31,12 @@ namespace Donor_Microservice.Persistence.Repositories
         {
             var history = await _context.Donations.Where(don => don.DonorId == id).ToListAsync();
             return history.ToList();
+        }
+        public async Task<ActionResult<Donor>> DonorRegister(Donor donor)
+        {
+            _context.Donors.Add(donor);
+            await _context.SaveChangesAsync();
+            return donor;
         }
     }
 }

@@ -1,8 +1,7 @@
 ﻿using Donor_Microservice.Models;
-using Hospital_Microservice.Models;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Donor_Microservice.Services
@@ -13,5 +12,7 @@ namespace Donor_Microservice.Services
         Task<IEnumerable<Donation>> GetDonorHistory(Guid id);
 
         Task<bool> CheckIfElligible(Guid id);
+        Task<ActionResult<Donor>> DonorRegister(RegisterInformation info);
+
     }
 }
