@@ -6,12 +6,13 @@ namespace Hospital_Microservice.Persistence.Contexts
     public class HospitalDbContext : DbContext
     {
         public HospitalDbContext(DbContextOptions<HospitalDbContext> options) : base(options) {}
-        public HospitalDbContext(){}
+        public HospitalDbContext(){ Database.EnsureCreated(); }
 
-        public DbSet<BloodType> BloodTypes { get; set; }
         public DbSet<Hospital> Hospitals { get; set; }
         public DbSet<LoginDetails> LoginDetails { get; set; }
         public DbSet<Schedule> Schedules { get; set; }
+        public DbSet<MobileBloodBank> MobileBloodBanks{ get; set; }
+        public DbSet<DatesAndLocations> DatesAndLocations { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -20,9 +21,10 @@ namespace Hospital_Microservice.Persistence.Contexts
             //Setting Primary Keys
             builder.Entity<Hospital>()
                 .HasKey(h => h.Id);
-            builder.Entity<BloodType>().HasKey(b => b.Type);
             builder.Entity<LoginDetails>().HasKey(lg => lg.HospitalId);
             builder.Entity<Schedule>().HasKey(s => s.ScheduleId);
+            builder.Entity<DatesAndLocations>().HasKey(dl => dl.Id);
+            builder.Entity<MobileBloodBank>().HasKey(b => b.Id);
 
             //Setting constraints
             builder.Entity<Hospital>().Property(h => h.Name).IsRequired();
@@ -32,8 +34,7 @@ namespace Hospital_Microservice.Persistence.Contexts
             builder.Entity<LoginDetails>().Property(lg => lg.Email).IsRequired();
             builder.Entity<LoginDetails>().Property(lg => lg.Password).IsRequired().HasMaxLength(64);
 
-            builder.Entity<BloodType>().Property(bt => bt.Type).IsRequired().HasMaxLength(3);
-
+            
             builder.Entity<Schedule>().Property(s => s.DayOfWeek).IsRequired().HasMaxLength(8);
 
 
@@ -49,11 +50,11 @@ namespace Hospital_Microservice.Persistence.Contexts
                 .WithOne(p => p.Hospital)
                 .HasForeignKey(p => p.HospitalId);
 
-            //Hospital has many BloodTypes(needed)
-            builder.Entity<Hospital>()
-                .HasMany(h => h.BloodTypes)
-                .WithOne(bt => bt.Hospital)
-                .HasForeignKey(bt => bt.HospitalId);
+            builder.Entity<MobileBloodBank>()
+                .HasMany(mb => mb.DatesAndLocations)
+                .WithOne(p => p.MobileBloodBank)
+                .HasForeignKey(p => p.MobileBloodBankId);
+
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

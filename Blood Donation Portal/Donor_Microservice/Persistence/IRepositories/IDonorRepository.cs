@@ -10,5 +10,7 @@ namespace Donor_Microservice.Persistence.IRepositories
     {
         public Task<Donation> AddDonationToDonorHistoryAsync(string email, Donation donation);
         public Task<IEnumerable<Donation>> GetDonorHistory(Guid id);
+        public Task<Donor> GetDonorAsync(Guid id);
+
     }
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj": {
+    "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj",
+        "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj",
         "projectName": "Admin_Microservice",
-        "projectPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Admin_Microservice\\obj\\",
+        "projectPath": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj",
+        "packagesPath": "C:\\Users\\Cosmin S\\.nuget\\packages\\",
+        "outputPath": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Admin_Microservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cosmin S\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,20 +90,20 @@
         }
       }
     },
-    "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\ConsoleApp1\\ConsoleApp1.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\ConsoleApp1\\obj\\",
+        "projectPath": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\ConsoleApp1\\ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\Cosmin S\\.nuget\\packages\\",
+        "outputPath": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cosmin S\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -116,20 +116,20 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj": {
-                "projectPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj"
+              "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj": {
+                "projectPath": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj"
               },
-              "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj": {
-                "projectPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj"
+              "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj": {
+                "projectPath": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj"
               },
-              "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj": {
-                "projectPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj"
+              "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj": {
+                "projectPath": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj"
               },
-              "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj": {
-                "projectPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj"
+              "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj": {
+                "projectPath": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj"
               },
-              "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj": {
-                "projectPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj"
+              "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj": {
+                "projectPath": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj"
               }
             }
           }
@@ -170,20 +170,20 @@
         }
       }
     },
-    "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj": {
+    "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj",
+        "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj",
         "projectName": "Donor_Microservice",
-        "projectPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Donor_Microservice\\obj\\",
+        "projectPath": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj",
+        "packagesPath": "C:\\Users\\Cosmin S\\.nuget\\packages\\",
+        "outputPath": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Donor_Microservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cosmin S\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -196,11 +196,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj": {
-                "projectPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj"
+              "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj": {
+                "projectPath": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj"
               },
-              "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj": {
-                "projectPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj"
+              "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj": {
+                "projectPath": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj"
               }
             }
           }
@@ -217,6 +217,10 @@
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
               "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -267,20 +271,20 @@
         }
       }
     },
-    "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj": {
+    "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj",
+        "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj",
         "projectName": "Feedback_Microservice",
-        "projectPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Feedback_Microservice\\obj\\",
+        "projectPath": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj",
+        "packagesPath": "C:\\Users\\Cosmin S\\.nuget\\packages\\",
+        "outputPath": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Feedback_Microservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cosmin S\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -349,20 +353,20 @@
         }
       }
     },
-    "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj": {
+    "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj",
+        "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj",
         "projectName": "Hospital_Microservice",
-        "projectPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Hospital_Microservice\\obj\\",
+        "projectPath": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj",
+        "packagesPath": "C:\\Users\\Cosmin S\\.nuget\\packages\\",
+        "outputPath": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Hospital_Microservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cosmin S\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -390,6 +394,10 @@
               "target": "Package",
               "version": "[5.2.7, )"
             },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.0.1, )"
@@ -407,6 +415,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [
@@ -431,20 +443,20 @@
         }
       }
     },
-    "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj": {
+    "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj",
+        "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj",
         "projectName": "Notifications_Microservice",
-        "projectPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "F:\\Facultate\\DotNet\\BloodDonor\\Blood Donation Portal\\Notifications_Microservice\\obj\\",
+        "projectPath": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj",
+        "packagesPath": "C:\\Users\\Cosmin S\\.nuget\\packages\\",
+        "outputPath": "E:\\Facultate\\.NET - Introducere\\Bloods\\Blood Donation Portal\\Notifications_Microservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cosmin S\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

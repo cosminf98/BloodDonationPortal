@@ -1,16 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Text.Json.Serialization;
 
 namespace Hospital_Microservice.Models
 {
     public class LoginDetails
     {
-        public Guid HospitalId { get; set; }
+        public Guid Id { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
+        public Guid HospitalId { get; set; }
+
+        [JsonIgnore]
         public Hospital Hospital { get; set; }
     }
 }

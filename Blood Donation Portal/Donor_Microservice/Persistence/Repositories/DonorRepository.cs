@@ -21,6 +21,12 @@ namespace Donor_Microservice.Persistence.Repositories
             return donation;
         }
 
+        public async Task<Donor> GetDonorAsync(Guid id)
+        {
+            Donor donor = await _context.Donors.FindAsync(id);
+            return donor;
+        }
+
         public async Task<IEnumerable<Donation>> GetDonorHistory(Guid id)
         {
             var history = await _context.Donations.Where(don => don.DonorId == id).ToListAsync();

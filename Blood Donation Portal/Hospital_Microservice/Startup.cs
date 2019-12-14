@@ -4,10 +4,14 @@ using Hospital_Microservice.Repositories;
 using Hospital_Microservice.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
+using System.Linq;
+using Newtonsoft.Json;
 
 namespace Hospital_Microservice
 {
@@ -23,8 +27,8 @@ namespace Hospital_Microservice
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
-
+            services.AddControllers()
+                .AddNewtonsoftJson();
             //TODO ; move to appsettinsjson
             services.AddDbContext<HospitalDbContext>(options =>
             {
@@ -34,6 +38,8 @@ namespace Hospital_Microservice
 
             services.AddScoped<IHospitalRepository, HospitalRepository>();
             services.AddScoped<IHospitalService, HospitalService>();
+            services.AddScoped<IMobileBloodBankRepository, MobileBloodBankRepository>();
+            services.AddScoped<IMobileBloodBankService, MobileBloodBankService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,5 +61,6 @@ namespace Hospital_Microservice
                 endpoints.MapControllers();
             });
         }
+
     }
 }

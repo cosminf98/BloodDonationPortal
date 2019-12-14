@@ -30,6 +30,13 @@ namespace Donor_Microservice.Controllers
             return await _context.Donors.ToListAsync();
         }
 
+        // GET: api/Donors/iselligible/id
+        [HttpGet("iselligible/{id}")]
+        public async Task<bool> IsElligible(Guid id)
+        {
+            return await _service.CheckIfElligible(id);
+        }
+
         //GET: api/Donors/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Donor>> GetDonor(Guid id)
