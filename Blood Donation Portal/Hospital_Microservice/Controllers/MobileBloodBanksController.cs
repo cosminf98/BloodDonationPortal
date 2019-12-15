@@ -68,6 +68,7 @@ namespace Hospital_Microservice.Controllers
             return mobileBloodBank;
         }
 
+        //PATCH: api/mobilebloodbanks/21
         [HttpPatch("{id}")]
         public async Task<ActionResult<MobileBloodBank>> PatchMobileBloodBank(Guid id, [FromBody] JsonPatchDocument<MobileBloodBank> patchBank)
         {
