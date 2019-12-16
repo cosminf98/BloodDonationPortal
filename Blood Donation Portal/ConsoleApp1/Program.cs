@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Threading;
+using Hospital_Microservice.Models;
+using Hospital_Microservice.Persistence.Contexts;
 using Notifications_Microservice.Models;
 using Notifications_Microservice.Persistence.Contexts;
 
@@ -9,26 +11,53 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            NotificationsDbContext context = new NotificationsDbContext();
-            PublicNotification pn2 = new PublicNotification()
+            HospitalDbContext hcontext = new HospitalDbContext();
+            Hospital hospital = new Hospital()
             {
-                BloodTypeNeeded = "o+",
-                City = "Roman",
-                DonationCenter = "Spital1"
+                Name = "Centru de transfuzie",
+                City = "Iasi",
+                County = "Iasi",
+                Address = "Pe undeva prin Iasi",
+                PhoneNumber = "0757328193"
             };
-            PrivateNotification pn = new PrivateNotification()
+            LoginDetails login = new LoginDetails()
             {
-                DonorEmail = "GigelEmail@email.com"
+                Email = "CTEmail@email.com",
+                Password = "sggdrhr"
             };
-            context.PrivateNotifications.Add(pn);
+            Schedule schedule = new Schedule()
+            {
+                DayOfWeek = "Luni,Marti,Miercuri,Joi,Vineri",
+                IsOpen = false,
+                OpenFrom = 480,
+                OpenUntil = 900
+            };
+            hospital.LoginDetails = login;
+            hospital.Schedules.Add(schedule);
 
-            Thread.Sleep(1000);
+            hcontext.Hospitals.Add(hospital);
+            hcontext.SaveChanges();
 
-            context.PublicNotifications.Add(pn2);
-            context.SaveChanges();
+            /* NotificationsDbContext context = new NotificationsDbContext();
+             PublicNotification pn2 = new PublicNotification()
+             {
+                 BloodTypeNeeded = "o+",
+                 City = "Roman",
+                 DonationCenter = "Spital1"
+             };
+             PrivateNotification pn = new PrivateNotification()
+             {
+                 DonorEmail = "GigelEmail@email.com"
+             };
+             context.PrivateNotifications.Add(pn);
 
-            foreach(var x in context.PrivateNotifications)
-                Console.WriteLine(x.CreatedAt);
+             Thread.Sleep(1000);
+
+             context.PublicNotifications.Add(pn2);
+             context.SaveChanges();
+
+             foreach(var x in context.PrivateNotifications)
+                 Console.WriteLine(x.CreatedAt);*/
         }
     }
 }

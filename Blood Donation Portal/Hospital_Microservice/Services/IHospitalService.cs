@@ -1,7 +1,6 @@
 ﻿using Hospital_Microservice.Models;
-using System;
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Hospital_Microservice.Services
@@ -10,5 +9,7 @@ namespace Hospital_Microservice.Services
     {
         Task<IEnumerable<Hospital>> GetHospitalsAsync();
         Task<IEnumerable<Hospital>> GetHospitalsByCityAsync(string city);
+        Task<ActionResult<Hospital>> HospitalRegister(RegisterInformation info);
+
     }
 }

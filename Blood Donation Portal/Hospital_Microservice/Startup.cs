@@ -4,14 +4,10 @@ using Hospital_Microservice.Repositories;
 using Hospital_Microservice.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Options;
-using System.Linq;
-using Newtonsoft.Json;
 
 namespace Hospital_Microservice
 {
