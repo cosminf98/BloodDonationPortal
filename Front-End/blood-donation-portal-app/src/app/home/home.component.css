@@ -1,0 +1,77 @@
+.hero {
+  background-color: 	#FEF0E5;
+  background-size: cover;
+  background-position: center center;
+
+}
+.is-info {
+
+}
+
+.is-fullheight {
+  height: 100vh;
+}
+
+.is-bold {
+
+}
+.logo{
+  background-image: url('/assets/img/logo.jpg') !important;
+  height: 45vh;
+  width: 45vh;
+  display: block;
+  margin-top: 0.65%;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 30%;
+}
+
+.toolbar{
+  background-color:	#FB8C81;
+}
+
+li {
+  float: left;
+  width: 80px;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FB8C81;
+  float: left;
+}
+.small-logo{
+  margin-left:auto;
+  margin-right:0;
+  color: rebeccapurple;
+  height: 99%;
+}
+
+.get-closer{
+  width: 25px;
+}
+i{
+  font-size: 40px;
+  cursor: pointer;
+}
+li:hover{
+  background-color: #888888;
+}
+
+.login{
+  font-size: 30px;
+  cursor: pointer;
+}

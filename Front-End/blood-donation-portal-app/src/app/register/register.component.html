@@ -1,0 +1,61 @@
+<div class="back is-fullheight">
+  <div class="form-wrapper">
+
+    <h3 class="title text"> Registration </h3>
+    <form class="form" method="post" novalidate>
+
+      <div asp-validation-summary="ModelOnly"></div>
+      <div class="form-group">
+        <div class="text" asp-for="first-name">First Name</div>
+        <input asp-for="first-name" class="form-control"/>
+        <span asp-validation-for="first-name" class="text-muted"></span>
+      </div>
+      <div class="form-group">
+        <div class="text" asp-for="last-name">Last Name</div>
+        <input asp-for="last-name" class="form-control"/>
+        <span asp-validation-for="last-name" class="text-muted"></span>
+      </div>
+      <div class="form-group">
+        <div class="text" asp-for="gender">Gender</div>
+        <input asp-for="gender" class="form-control"/>
+        <span asp-validation-for="gender" class="text-muted"></span>
+      </div>
+      <div class="form-group">
+        <div class="text" asp-for="birth">Date of birth</div>
+        <input asp-for="birth" class="form-control"/>
+        <span asp-validation-for="birth" class="text-muted"></span>
+      </div>
+      <div class="form-group">
+        <div class="text" asp-for="blood-type">Blood Type</div>
+        <input asp-for="blood-type" class="form-control"/>
+        <span asp-validation-for="blood-type" class="text-muted"></span>
+      </div>
+      <div class="form-group">
+        <div class="text" asp-for="city">City</div>
+        <input asp-for="city" class="form-control"/>
+        <span asp-validation-for="city" class="text-muted"></span>
+      </div>
+      <div class="form-group">
+        <div class="text" asp-for="email">Email</div>
+        <input asp-for="email" class="form-control"/>
+        <span asp-validation-for="email" class="text-muted"></span>
+      </div>
+      <div class="form-group">
+        <div class="text" asp-for="password">Password</div>
+        <input asp-for="password" type="password" class="form-control"/>
+        <span asp-validation-for="password" class="text-muted"></span>
+      </div>
+      <div class="form-group">
+        <div class="text" asp-for="confirm-password">Confirm Password</div>
+        <input asp-for="confirm-password" type="password" class="form-control"/>
+        <span asp-validation-for="confirm-password" class="text-muted"></span>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Create account" class="btn btn-success text"/>
+      </div>
+
+    </form>
+    <div class="lighter-text">Do you have an account?</div>
+    <div class="login-button text" routerLink="/login">Login</div>
+  </div>
+</div>
