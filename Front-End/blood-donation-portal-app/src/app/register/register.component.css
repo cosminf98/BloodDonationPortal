@@ -15,53 +15,13 @@ body{
   cursor: pointer;
 }
 
-.small-logo{
-  margin-left:auto;
-  margin-right:0;
-  color: rebeccapurple;
-  height: 99%;
-}
-
-.logo{
-  background-image: url('/assets/img/logo.jpg') !important;
-  height: 45vh;
-  width: 45vh;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-li {
-  float: left;
-  width: 80px;
-}
-
-li a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #FB8C81;
-  float: left;
-}
-
 .form-wrapper{
   background-color: white;
   width: 50%;
   height: 80%;
   margin-left: 26%;
   position: relative;
-  top: 7%;
+  top: 5%;
   padding-top: 20px;
 }
 
@@ -94,10 +54,6 @@ ul {
   color: #696969;
   font-weight: bold;
   font-size: 15px;
-}
-
-.text-muted{
-  font-size: 25px;
 }
 
 h3{
