@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj": {
+    "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj",
+        "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj",
         "projectName": "Admin_Microservice",
-        "projectPath": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj",
-        "packagesPath": "C:\\Users\\sanio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Admin_Microservice\\obj\\",
+        "projectPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj",
+        "packagesPath": "C:\\Users\\Cosmin S\\.nuget\\packages\\",
+        "outputPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Admin_Microservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sanio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Cosmin S\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -79,24 +78,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -105,26 +86,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\ConsoleApp1\\ConsoleApp1.csproj",
-        "packagesPath": "C:\\Users\\sanio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\ConsoleApp1\\obj\\",
+        "projectPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\ConsoleApp1\\ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\Cosmin S\\.nuget\\packages\\",
+        "outputPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sanio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Cosmin S\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -136,20 +116,20 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj": {
-                "projectPath": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj"
+              "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj": {
+                "projectPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Admin_Microservice\\Admin_Microservice.csproj"
               },
-              "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj": {
-                "projectPath": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj"
+              "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj": {
+                "projectPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj"
               },
-              "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj": {
-                "projectPath": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj"
+              "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj": {
+                "projectPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj"
               },
-              "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj": {
-                "projectPath": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj"
+              "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj": {
+                "projectPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj"
               },
-              "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj": {
-                "projectPath": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj"
+              "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj": {
+                "projectPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj"
               }
             }
           }
@@ -178,24 +158,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -204,26 +166,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj": {
+    "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj",
+        "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj",
         "projectName": "Donor_Microservice",
-        "projectPath": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj",
-        "packagesPath": "C:\\Users\\sanio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Donor_Microservice\\obj\\",
+        "projectPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj",
+        "packagesPath": "C:\\Users\\Cosmin S\\.nuget\\packages\\",
+        "outputPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Donor_Microservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sanio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Cosmin S\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -235,11 +196,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj": {
-                "projectPath": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj"
+              "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj": {
+                "projectPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj"
               },
-              "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj": {
-                "projectPath": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj"
+              "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj": {
+                "projectPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj"
               }
             }
           }
@@ -253,9 +214,25 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
               "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -263,7 +240,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.0.1, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -277,7 +254,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.1, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
@@ -302,24 +279,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -328,26 +287,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj": {
+    "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj",
+        "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj",
         "projectName": "Feedback_Microservice",
-        "projectPath": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj",
-        "packagesPath": "C:\\Users\\sanio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Feedback_Microservice\\obj\\",
+        "projectPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj",
+        "packagesPath": "C:\\Users\\Cosmin S\\.nuget\\packages\\",
+        "outputPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Feedback_Microservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sanio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Cosmin S\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -372,7 +330,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.0.1, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -403,24 +361,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -429,26 +369,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj": {
+    "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj",
+        "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj",
         "projectName": "Hospital_Microservice",
-        "projectPath": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj",
-        "packagesPath": "C:\\Users\\sanio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Hospital_Microservice\\obj\\",
+        "projectPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Hospital_Microservice\\Hospital_Microservice.csproj",
+        "packagesPath": "C:\\Users\\Cosmin S\\.nuget\\packages\\",
+        "outputPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Hospital_Microservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sanio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Cosmin S\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -475,13 +414,21 @@
               "target": "Package",
               "version": "[5.2.7, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[3.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.0.1, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -501,6 +448,10 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.0.0, )"
@@ -508,6 +459,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.6.0, )"
             }
           },
           "imports": [
@@ -520,24 +475,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -546,26 +483,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj": {
+    "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj",
+        "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj",
         "projectName": "Notifications_Microservice",
-        "projectPath": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj",
-        "packagesPath": "C:\\Users\\sanio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sanio\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Notifications_Microservice\\obj\\",
+        "projectPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Notifications_Microservice\\Notifications_Microservice.csproj",
+        "packagesPath": "C:\\Users\\Cosmin S\\.nuget\\packages\\",
+        "outputPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Notifications_Microservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\sanio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Cosmin S\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -576,7 +512,11 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj": {
+                "projectPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Donor_Microservice\\Donor_Microservice.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -588,9 +528,13 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.0.1, )"
+              "version": "[3.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -617,24 +561,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -643,7 +569,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,8 +8,9 @@ namespace Hospital_Microservice.Repositories
     public interface IHospitalRepository
     {
         Task<IEnumerable<Hospital>> GetHospitalsAsync();
-        Task<IEnumerable<Hospital>> GetHospitalsByCityAsync(string city);
+        Task<IEnumerable<Hospital>> GetHospitalsByCityOrCountyAsync(string cityOrCounty);
         Task<ActionResult<Hospital>> HospitalRegister(Hospital hospital);
+
 
     }
 }

@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
 
@@ -78,7 +79,6 @@ namespace Donor_Microservice.Services
                 City = info.City,
                 Gender = info.Gender,
                 DateOfBirth = info.DateOfBirth,
-                IsElligible = info.IsElligible
             };
             LoginDetails loginDetails = new LoginDetails()
             {
@@ -86,9 +86,23 @@ namespace Donor_Microservice.Services
                 Password = hashed
 
             };
-            donor.LoginDetails = loginDetails;
             await _donorRepository.DonorRegister(donor);
             return donor;
         }
+
+
+        public bool Authorize(ClaimsIdentity identity, string? type)
+        {
+            try
+            {
+                var claim = identity.FindFirst(type).Value;
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
     }
+
 }

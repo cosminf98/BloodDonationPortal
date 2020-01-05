@@ -18,9 +18,9 @@ namespace Hospital_Microservice.Persistence.Repositories
             return await _context.Hospitals.ToListAsync();
         }
 
-        public async Task<IEnumerable<Hospital>> GetHospitalsByCityAsync(string city)
+        public async Task<IEnumerable<Hospital>> GetHospitalsByCityOrCountyAsync(string cityOrCounty)
         {
-            return await _context.Hospitals.Where(h => h.City.Contains(city)).ToListAsync();
+            return await _context.Hospitals.Where(h => h.City.Contains(cityOrCounty) || h.County.Contains(cityOrCounty)).ToListAsync();
         }
 
         public async Task<ActionResult<Hospital>> HospitalRegister(Hospital hospital)

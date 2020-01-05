@@ -7,7 +7,7 @@ namespace Notifications_Microservice.Persistence.Contexts
     public class NotificationsDbContext : DbContext
     {
         public NotificationsDbContext(DbContextOptions<NotificationsDbContext> options) : base(options) { }
-        public NotificationsDbContext() { }
+        public NotificationsDbContext() { Database.EnsureCreated(); }
 
         public DbSet<PrivateNotification> PrivateNotifications{ get; set; }
         public DbSet<PublicNotification> PublicNotifications { get; set; }

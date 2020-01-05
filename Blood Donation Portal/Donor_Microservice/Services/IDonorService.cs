@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace Donor_Microservice.Services
@@ -14,5 +15,6 @@ namespace Donor_Microservice.Services
         Task<bool> CheckIfElligible(Guid id);
         Task<ActionResult<Donor>> DonorRegister(RegisterInformation info);
 
+        bool Authorize(ClaimsIdentity identity, string? type);
     }
 }

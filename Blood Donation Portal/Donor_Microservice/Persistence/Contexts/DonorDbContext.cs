@@ -1,4 +1,5 @@
 ﻿using Donor_Microservice.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Donor_Microservice.Persistence
 {
-    public class DonorDbContext : DbContext
+    public class DonorDbContext : IdentityDbContext<Donor,AppRole,Guid>
     {
 
         public DonorDbContext(DbContextOptions<DonorDbContext> options) : base(options) { }
@@ -22,7 +23,6 @@ namespace Donor_Microservice.Persistence
         }
 
         public DbSet<Donor> Donors { get; set; }
-        public DbSet<LoginDetails> LoginDetails { get; set; }
         public DbSet<Donation> Donations { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
@@ -32,8 +32,6 @@ namespace Donor_Microservice.Persistence
             //Setting Primary Keys
             builder.Entity<Donor>()
                 .HasKey(d => d.Id);
-            builder.Entity<LoginDetails>()
-                .HasKey(lg => lg.Id);
             builder.Entity<Donation>()
                 .HasKey(d => d.Id);
 
@@ -42,17 +40,9 @@ namespace Donor_Microservice.Persistence
             builder.Entity<Donor>().Property("Gender").IsRequired().HasMaxLength(1);
             builder.Entity<Donor>().Property("City").IsRequired();
 
-            builder.Entity<LoginDetails>().Property("Email").IsRequired();
-            builder.Entity<LoginDetails>().Property("Email").IsRequired().HasMaxLength(64);
-
             builder.Entity<Donation>().Property("DonationDate").IsRequired();
             builder.Entity<Donation>().Property("DonationCenter").IsRequired();
 
-            //Relationships
-            builder.Entity<Donor>()
-                .HasOne(d => d.LoginDetails)
-                .WithOne(lg => lg.Donor)
-                .HasForeignKey<LoginDetails>(lg => lg.DonorId);
 
             builder.Entity<Donor>()
                 .HasMany(d => d.DonationsHistory)

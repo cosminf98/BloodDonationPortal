@@ -15,7 +15,7 @@ namespace Donor_Microservice.Persistence.Repositories
 
         public async Task<Donation> AddDonationToDonorHistoryAsync(string email, Donation donation)
         {
-            Donor donor = _context.Donors.Where(d => d.LoginDetails.Email.ToLower().Equals(email.ToLower())).Single();
+            Donor donor = _context.Donors.Where(d => d.Email.ToLower().Equals(email.ToLower())).Single();
             donor.DonationsHistory.Add(donation);
             await _context.SaveChangesAsync();
             return donation;

@@ -7,9 +7,18 @@ using Microsoft.EntityFrameworkCore;
 using Donor_Microservice.Models;
 using Donor_Microservice.Persistence;
 using Donor_Microservice.Services;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
+
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.IdentityModel.Tokens;
+using Hospital_Microservice.AuthorizationRequirements;
+using System.Text;
+using System.Net.Http;
 
 namespace Donor_Microservice.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class DonorsController : ControllerBase
@@ -31,7 +40,7 @@ namespace Donor_Microservice.Controllers
         }
 
         // GET: api/Donors/iselligible/id
-        [HttpGet("iselligible/{id}")]
+        [HttpGet("iselligible/{id}")]   
         public async Task<bool> IsElligible(Guid id)
         {
             return await _service.CheckIfElligible(id);
@@ -52,90 +61,39 @@ namespace Donor_Microservice.Controllers
         }
 
         //GET: api/Donors/5
+        [Authorize]
         [HttpGet("gethistory/{id}")]
         public async Task<ActionResult<IEnumerable<Donation>>> GetHistory(Guid id)
         {
             var history = await _service.GetDonorHistory(id);
             if (history == null)
             {
-                //history.Add(new Donation());
-                return NotFound();
+                return NotFound("not found");
             }
+            
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+            string uid = identity.FindFirst("Id").Value;
 
-            return history.ToList();
+            //check for matching ids, so one user can't see other's history
+            if (_service.Authorize(identity,"DonorEmail") && id.ToString() == uid)
+                return history.ToList();
+            return Unauthorized("Unauth");
         }
 
         //POST: api/donors/addtohistory/email
+        [Authorize]
         [HttpPost("addtohistory/{email}")]
         public async Task<ActionResult<Donor>> PostDonation(string email, [FromBody] Donation donation)
         {
-            await _service.AddDonationToDonorHistoryAsync(email, donation);
-            return Ok();
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+            if (_service.Authorize(identity,"HospitalEmail"))
+            {
+                await _service.AddDonationToDonorHistoryAsync(email, donation);
+                return Ok();
+            }
+            return Unauthorized("Unauth");
         }
 
-        //// PUT: api/Donors/5
-        //// To protect from overposting attacks, please enable the specific properties you want to bind to, for
-        //// more details see https://aka.ms/RazorPagesCRUD.
-        //[HttpPut("{id}")]
-        //public async Task<IActionResult> PutDonor(Guid id, Donor donor)
-        //{
-        //    if (id != donor.Id)
-        //    {
-        //        return BadRequest();
-        //    }
 
-        //    _context.Entry(donor).State = EntityState.Modified;
-
-        //    try
-        //    {
-        //        await _context.SaveChangesAsync();
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!DonorExists(id))
-        //        {
-        //            return NotFound();
-        //        }
-        //        else
-        //        {
-        //            throw;
-        //        }
-        //    }
-
-        //    return NoContent();
-        //}
-
-        //// POST: api/Donors
-        //// To protect from overposting attacks, please enable the specific properties you want to bind to, for
-        //// more details see https://aka.ms/RazorPagesCRUD.
-        //[HttpPost]
-        //public async Task<ActionResult<Donor>> PostDonor(Donor donor)
-        //{
-        //    _context.Donors.Add(donor);
-        //    await _context.SaveChangesAsync();
-
-        //    return CreatedAtAction("GetDonor", new { id = donor.Id }, donor);
-        //}
-
-        //// DELETE: api/Donors/5
-        //[HttpDelete("{id}")]
-        //public async Task<ActionResult<Donor>> DeleteDonor(Guid id)
-        //{
-        //    var donor = await _context.Donors.FindAsync(id);
-        //    if (donor == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    _context.Donors.Remove(donor);
-        //    await _context.SaveChangesAsync();
-
-        //    return donor;
-        //}
-
-        //private bool DonorExists(Guid id)
-        //{
-        //    return _context.Donors.Any(e => e.Id == id);
-        //}
     }
 }

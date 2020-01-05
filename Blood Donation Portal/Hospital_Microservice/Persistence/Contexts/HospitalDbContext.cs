@@ -1,15 +1,16 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Hospital_Microservice.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using System;
 
 namespace Hospital_Microservice.Persistence.Contexts
 {
-    public class HospitalDbContext : DbContext
+    public class HospitalDbContext : IdentityDbContext<Hospital, AppRole, Guid>
     {
         public HospitalDbContext(DbContextOptions<HospitalDbContext> options) : base(options) {}
         public HospitalDbContext(){ Database.EnsureCreated(); }
 
         public DbSet<Hospital> Hospitals { get; set; }
-        public DbSet<LoginDetails> LoginDetails { get; set; }
         public DbSet<Schedule> Schedules { get; set; }
         public DbSet<MobileBloodBank> MobileBloodBanks{ get; set; }
         public DbSet<DatesAndLocations> DatesAndLocations { get; set; }
@@ -21,7 +22,6 @@ namespace Hospital_Microservice.Persistence.Contexts
             //Setting Primary Keys
             builder.Entity<Hospital>()
                 .HasKey(h => h.Id);
-            builder.Entity<LoginDetails>().HasKey(lg => lg.HospitalId);
             builder.Entity<Schedule>().HasKey(s => s.ScheduleId);
             builder.Entity<DatesAndLocations>().HasKey(dl => dl.Id);
             builder.Entity<MobileBloodBank>().HasKey(b => b.Id);
@@ -30,19 +30,9 @@ namespace Hospital_Microservice.Persistence.Contexts
             builder.Entity<Hospital>().Property(h => h.Name).IsRequired();
             builder.Entity<Hospital>().Property(h => h.City).IsRequired();
             builder.Entity<Hospital>().Property(h => h.Address).IsRequired();
-
-            builder.Entity<LoginDetails>().Property(lg => lg.Email).IsRequired();
-            builder.Entity<LoginDetails>().Property(lg => lg.Password).IsRequired().HasMaxLength(64);
-
             
             builder.Entity<Schedule>().Property(s => s.DayOfWeek).IsRequired().HasMaxLength(8);
 
-
-            //Each hospital has one loginDetails
-            builder.Entity<Hospital>()
-                .HasOne(h => h.LoginDetails)
-                .WithOne(lg => lg.Hospital)
-                .HasForeignKey<LoginDetails>(lg => lg.HospitalId);
 
             //Hospital has many Schedules(one for each day of week)
             builder.Entity<Hospital>()
@@ -60,9 +50,8 @@ namespace Hospital_Microservice.Persistence.Contexts
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //TODO : move connection string to appsettings.json
-            if(!optionsBuilder.IsConfigured)
-                optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=HospitalDb;Trusted_Connection=True;");
-
+            if (!optionsBuilder.IsConfigured)
+                optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=Hospitals;Trusted_Connection=True; Initial Catalog=HospitalDb;Integrated Security=SSPI;");
         }
     }
 }

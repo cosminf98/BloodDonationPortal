@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
 using Hospital_Microservice.Models;
@@ -22,9 +23,9 @@ namespace Hospital_Microservice.Services
             return await _hospitalRepository.GetHospitalsAsync();
         }
 
-        public async Task<IEnumerable<Hospital>> GetHospitalsByCityAsync(string city)
+        public async Task<IEnumerable<Hospital>> GetHospitalsByCityOrCountyAsync(string cityOrCounty)
         {
-            return await _hospitalRepository.GetHospitalsByCityAsync(city);
+            return await _hospitalRepository.GetHospitalsByCityOrCountyAsync(cityOrCounty);
         }
         public async Task<ActionResult<Hospital>> HospitalRegister(RegisterInformation info)
         {
@@ -63,10 +64,22 @@ namespace Hospital_Microservice.Services
                 OpenFrom = info.OpenFrom,
                 OpenUntil = info.OpenUntil
             };*/
-            hospital.LoginDetails = login;
            // hospital.Schedules.Add(schedule);
             await _hospitalRepository.HospitalRegister(hospital);
             return hospital;
         }
+        public bool Authorize2(ClaimsIdentity identity, string type)
+        {
+            try
+            {
+                var claim = identity.FindFirst(type).Value;
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
     }
 }

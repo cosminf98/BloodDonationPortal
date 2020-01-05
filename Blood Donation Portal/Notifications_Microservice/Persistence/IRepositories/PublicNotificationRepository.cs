@@ -40,6 +40,9 @@ namespace Notifications_Microservice.Persistence.IRepositories
             return notification;
         }
 
-
+        public async Task<PublicNotification> GetPublicNotificationAsync(Guid id)
+        {
+            return await _context.PublicNotifications.FindAsync(id);
+        }
     }
 }

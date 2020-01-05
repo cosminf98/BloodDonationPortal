@@ -10,7 +10,7 @@ namespace Feedback_Microservice.Persistence.Contexts
     public class FeedbackDbContext : DbContext
     {
         public FeedbackDbContext(DbContextOptions<FeedbackDbContext> options) : base(options) { }
-        public FeedbackDbContext() {}
+        public FeedbackDbContext() { Database.EnsureCreated(); }
 
         public DbSet<Feedback> Feedbacks { get; set; }
 

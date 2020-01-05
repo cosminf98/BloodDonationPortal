@@ -7,9 +7,11 @@ using Microsoft.EntityFrameworkCore;
 using Hospital_Microservice.Models;
 using Hospital_Microservice.Persistence.Contexts;
 using Hospital_Microservice.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Hospital_Microservice.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class HospitalsController : ControllerBase
@@ -23,96 +25,15 @@ namespace Hospital_Microservice.Controllers
             _service = service;
         }
 
-        // GET: api/Hospitals
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Hospital>>> GetHospitals()
-        {
-            return await _context.Hospitals.ToListAsync();
-        }
-
         // GET: api/Hospitals/city
         [HttpGet("{city}")]
-        public async Task<ActionResult<IEnumerable<Hospital>>> GetHospitalsByCity(string city)
+        public async Task<ActionResult<IEnumerable<Hospital>>> GetHospitalsByCity(string cityOrCounty)
         {
-            var cities = await _service.GetHospitalsByCityAsync(city);
+            var cities = await _service.GetHospitalsByCityOrCountyAsync(cityOrCounty);
             if (cities == null) return NotFound();
 
             return cities.ToList();
         }
-
-        //GET: api/Hospitals/5
-        //[HttpGet("{id}")]
-        //public async Task<ActionResult<Hospital>> GetHospital(Guid id)
-        //{
-        //    var hospital = await _context.Hospitals.FindAsync(id);
-
-        //    if (hospital == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return hospital;
-        //}
-
-        //// PUT: api/Hospitals/5
-        //// To protect from overposting attacks, please enable the specific properties you want to bind to, for
-        //// more details see https://aka.ms/RazorPagesCRUD.
-        //[HttpPut("{id}")]
-        //public async Task<IActionResult> PutHospital(Guid id, Hospital hospital)
-        //{
-        //    if (id != hospital.Id)
-        //    {
-        //        return BadRequest();
-        //    }
-
-        //    _context.Entry(hospital).State = EntityState.Modified;
-
-        //    try
-        //    {
-        //        await _context.SaveChangesAsync();
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!HospitalExists(id))
-        //        {
-        //            return NotFound();
-        //        }
-        //        else
-        //        {
-        //            throw;
-        //        }
-        //    }
-
-        //    return NoContent();
-        //}
-
-        //// POST: api/Hospitals
-        //// To protect from overposting attacks, please enable the specific properties you want to bind to, for
-        //// more details see https://aka.ms/RazorPagesCRUD.
-        //[HttpPost]
-        //public async Task<ActionResult<Hospital>> PostHospital(Hospital hospital)
-        //{
-        //    _context.Hospitals.Add(hospital);
-        //    await _context.SaveChangesAsync();
-
-        //    return CreatedAtAction("GetHospital", new { id = hospital.Id }, hospital);
-        //}
-
-        //// DELETE: api/Hospitals/5
-        //[HttpDelete("{id}")]
-        //public async Task<ActionResult<Hospital>> DeleteHospital(Guid id)
-        //{
-        //    var hospital = await _context.Hospitals.FindAsync(id);
-        //    if (hospital == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    _context.Hospitals.Remove(hospital);
-        //    await _context.SaveChangesAsync();
-
-        //    return hospital;
-        //}
 
         private bool HospitalExists(Guid id)
         {

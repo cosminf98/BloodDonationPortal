@@ -39,7 +39,8 @@ namespace Hospital_Microservice.Controllers
 
         private bool HospitalExists(String email)
         {
-            return _context.LoginDetails.Any(e => e.Email == email);
+            //return _context.LoginDetails.Any(e => e.Email == email);
+            return false; //this class will be deleted, don't worry :) 
         }
     }
 }

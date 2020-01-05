@@ -24,23 +24,18 @@ namespace Donor_Microservice.Controllers
         // POST: api/DonorRegister
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // more details see https://aka.ms/RazorPagesCRUD.
-        [HttpPost]
-        public async Task<ActionResult<Donor>> PostDonor([FromBody]RegisterInformation info)
-        {
-            if (DonorExists(info.Email))
-            {
-                return BadRequest();
-            }
+        //[HttpPost]
+        //public async Task<ActionResult<Donor>> PostDonor([FromBody]RegisterInformation info)
+        //{
+        //    if (DonorExists(info.Email))
+        //    {
+        //        return BadRequest();
+        //    }
 
-            await _service.DonorRegister(info);
+        //    await _service.DonorRegister(info);
 
-            return Ok();
-        }
+        //    return Ok();
+        //}
 
-
-        private bool DonorExists(string email)
-        {
-            return _context.LoginDetails.Any(e => e.Email == email);
-        }
     }
 }
