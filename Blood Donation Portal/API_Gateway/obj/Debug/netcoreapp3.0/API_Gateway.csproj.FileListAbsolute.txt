@@ -85,3 +85,32 @@ E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\API_Gateway\obj\De
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\API_Gateway\obj\Debug\netcoreapp3.0\API_Gateway.csproj.CopyComplete
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\API_Gateway\obj\Debug\netcoreapp3.0\API_Gateway.dll
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\API_Gateway\obj\Debug\netcoreapp3.0\API_Gateway.pdb
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\ocelot.json
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\API_Gateway.exe
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\API_Gateway.deps.json
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\API_Gateway.runtimeconfig.json
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\API_Gateway.runtimeconfig.dev.json
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\API_Gateway.dll
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\API_Gateway.pdb
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\obj\Debug\netcoreapp3.0\staticwebassets\API_Gateway.StaticWebAssets.Manifest.cache
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\obj\Debug\netcoreapp3.0\staticwebassets\API_Gateway.StaticWebAssets.xml
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\obj\Debug\netcoreapp3.0\API_Gateway.AssemblyInfoInputs.cache
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\obj\Debug\netcoreapp3.0\API_Gateway.AssemblyInfo.cs
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\obj\Debug\netcoreapp3.0\API_Gateway.RazorTargetAssemblyInfo.cache
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\obj\Debug\netcoreapp3.0\API_Gateway.dll
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\obj\Debug\netcoreapp3.0\API_Gateway.pdb
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\FluentValidation.dll
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.NodeServices.dll
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.dll
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\Newtonsoft.Json.Bson.dll
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\Ocelot.dll
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\obj\Debug\netcoreapp3.0\API_Gateway.csprojAssemblyReference.cache
+C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\obj\Debug\netcoreapp3.0\API_Gateway.csproj.CopyComplete

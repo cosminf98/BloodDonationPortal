@@ -4,20 +4,20 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:59189",
-      "sslPort": 44301
+      "applicationUrl": "http://localhost:50993",
+      "sslPort": 44302
     }
   },
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "api/donors",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Hospital_Microservice": {
+    "Donor_Microservice": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "weatherforecast",
