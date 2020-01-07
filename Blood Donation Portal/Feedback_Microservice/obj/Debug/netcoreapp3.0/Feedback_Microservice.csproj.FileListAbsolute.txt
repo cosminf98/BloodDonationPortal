@@ -619,3 +619,13 @@ C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal
 C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\Feedback_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
 C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\Feedback_Microservice\obj\Debug\netcoreapp3.0\Feedback_Microservice.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\Feedback_Microservice\obj\Debug\netcoreapp3.0\Feedback_Microservice.MvcApplicationPartsAssemblyInfo.cache
+F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Feedback_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.NodeServices.dll
+F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Feedback_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.dll
+F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Feedback_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
+F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Feedback_Microservice\bin\Debug\netcoreapp3.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Feedback_Microservice\bin\Debug\netcoreapp3.0\Microsoft.Bcl.HashCode.dll
+F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Feedback_Microservice\bin\Debug\netcoreapp3.0\System.Collections.Immutable.dll
+F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Feedback_Microservice\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
+F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Feedback_Microservice\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
+F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Feedback_Microservice\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Feedback_Microservice\obj\Debug\netcoreapp3.0\Feedback_Microservice.MvcApplicationPartsAssemblyInfo.cs

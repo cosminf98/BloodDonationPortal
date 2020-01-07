@@ -366,7 +366,6 @@ F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debu
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.csproj.CopyComplete
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.dll
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.pdb
-F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\bin\Debug\netcoreapp3.0\emailData.json
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
 F:\Facultate\DotNet\BloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Admin_Microservice\bin\Debug\netcoreapp3.0\appsettings.Development.json
@@ -748,3 +747,8 @@ C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal
 C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\Admin_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
 C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.MvcApplicationPartsAssemblyInfo.cache
+F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Admin_Microservice\bin\Debug\netcoreapp3.0\Models\EmailInfo.json
+F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Admin_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.NodeServices.dll
+F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Admin_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.dll
+F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Admin_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
+F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.MvcApplicationPartsAssemblyInfo.cs
