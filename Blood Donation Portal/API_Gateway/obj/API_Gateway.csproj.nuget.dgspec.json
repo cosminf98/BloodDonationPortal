@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Facultate\\DotNet\\bloodDonor\\Blood Donation Portal\\API_Gateway\\API_Gateway.csproj": {}
+    "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\API_Gateway\\API_Gateway.csproj": {}
   },
   "projects": {
-    "F:\\Facultate\\DotNet\\bloodDonor\\Blood Donation Portal\\API_Gateway\\API_Gateway.csproj": {
+    "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\API_Gateway\\API_Gateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Facultate\\DotNet\\bloodDonor\\Blood Donation Portal\\API_Gateway\\API_Gateway.csproj",
+        "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\API_Gateway\\API_Gateway.csproj",
         "projectName": "API_Gateway",
-        "projectPath": "F:\\Facultate\\DotNet\\bloodDonor\\Blood Donation Portal\\API_Gateway\\API_Gateway.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "F:\\Facultate\\DotNet\\bloodDonor\\Blood Donation Portal\\API_Gateway\\obj\\",
+        "projectPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\API_Gateway\\API_Gateway.csproj",
+        "packagesPath": "C:\\Users\\Cosmin S\\.nuget\\packages\\",
+        "outputPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\API_Gateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cosmin S\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -858,8 +858,6 @@ E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Donor_Microservice
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Donor_Microservice\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Donor_Microservice\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Donor_Microservice\bin\Debug\netcoreapp3.0\System.Web.Http.dll
-E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Donor_Microservice\obj\Debug\netcoreapp3.0\Donor_Microservice.MvcApplicationPartsAssemblyInfo.cs
-E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Donor_Microservice\obj\Debug\netcoreapp3.0\Donor_Microservice.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\Donor_Microservice\bin\Debug\netcoreapp3.0\appsettings.Development.json
 C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\Donor_Microservice\bin\Debug\netcoreapp3.0\appsettings.json
 C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\Donor_Microservice\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
@@ -1127,3 +1125,8 @@ F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Donor_Microservice\bin\Debu
 F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Donor_Microservice\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Donor_Microservice\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
 F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Donor_Microservice\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Donor_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.NodeServices.dll
+E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Donor_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.dll
+E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Donor_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
+E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Donor_Microservice\obj\Debug\netcoreapp3.0\Donor_Microservice.MvcApplicationPartsAssemblyInfo.cs
+E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Donor_Microservice\obj\Debug\netcoreapp3.0\Donor_Microservice.MvcApplicationPartsAssemblyInfo.cache

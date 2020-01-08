@@ -475,7 +475,6 @@ E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Feedback_Microserv
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Feedback_Microservice\obj\Debug\netcoreapp3.0\Feedback_Microservice.csprojAssemblyReference.cache
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Feedback_Microservice\obj\Debug\netcoreapp3.0\staticwebassets\Feedback_Microservice.StaticWebAssets.Manifest.cache
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Feedback_Microservice\obj\Debug\netcoreapp3.0\staticwebassets\Feedback_Microservice.StaticWebAssets.xml
-E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Feedback_Microservice\obj\Debug\netcoreapp3.0\Feedback_Microservice.MvcApplicationPartsAssemblyInfo.cache
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Feedback_Microservice\obj\Debug\netcoreapp3.0\Feedback_Microservice.AssemblyInfoInputs.cache
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Feedback_Microservice\obj\Debug\netcoreapp3.0\Feedback_Microservice.AssemblyInfo.cs
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Feedback_Microservice\obj\Debug\netcoreapp3.0\Feedback_Microservice.RazorTargetAssemblyInfo.cache
@@ -629,3 +628,8 @@ F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Feedback_Microservice\bin\D
 F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Feedback_Microservice\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
 F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Feedback_Microservice\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
 F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Feedback_Microservice\obj\Debug\netcoreapp3.0\Feedback_Microservice.MvcApplicationPartsAssemblyInfo.cs
+E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Feedback_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.NodeServices.dll
+E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Feedback_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.dll
+E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Feedback_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
+E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Feedback_Microservice\obj\Debug\netcoreapp3.0\Feedback_Microservice.MvcApplicationPartsAssemblyInfo.cs
+E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Feedback_Microservice\obj\Debug\netcoreapp3.0\Feedback_Microservice.MvcApplicationPartsAssemblyInfo.cache

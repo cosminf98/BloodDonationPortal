@@ -609,7 +609,6 @@ E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Notifications_Micr
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Notifications_Microservice\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Notifications_Microservice\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Notifications_Microservice\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
-E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Notifications_Microservice\obj\Debug\netcoreapp3.0\Notifications_Microservice.MvcApplicationPartsAssemblyInfo.cache
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Notifications_Microservice\bin\Debug\netcoreapp3.0\Feedback_Microservice.exe
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Notifications_Microservice\bin\Debug\netcoreapp3.0\Hospital_Microservice.exe
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Notifications_Microservice\bin\Debug\netcoreapp3.0\libman.json
@@ -679,7 +678,6 @@ E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Notifications_Micr
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Notifications_Microservice\bin\Debug\netcoreapp3.0\Donor_Microservice.pdb
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Notifications_Microservice\bin\Debug\netcoreapp3.0\Feedback_Microservice.pdb
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Notifications_Microservice\bin\Debug\netcoreapp3.0\Hospital_Microservice.pdb
-E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Notifications_Microservice\obj\Debug\netcoreapp3.0\Notifications_Microservice.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\Notifications_Microservice\bin\Debug\netcoreapp3.0\appsettings.Development.json
 C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\Notifications_Microservice\bin\Debug\netcoreapp3.0\appsettings.json
 C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\Notifications_Microservice\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
@@ -962,3 +960,7 @@ F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Notifications_Microservice\
 F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Notifications_Microservice\bin\Debug\netcoreapp3.0\Feedback_Microservice.pdb
 F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Notifications_Microservice\bin\Debug\netcoreapp3.0\Hospital_Microservice.pdb
 F:\Facultate\DotNet\bloodDonor\Blood Donation Portal\Notifications_Microservice\obj\Debug\netcoreapp3.0\Notifications_Microservice.MvcApplicationPartsAssemblyInfo.cs
+E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Notifications_Microservice\bin\Debug\netcoreapp3.0\Persistence\IRepositories\EmailInfo.json
+E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Notifications_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.NodeServices.dll
+E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Notifications_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.dll
+E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Notifications_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.Extensions.dll

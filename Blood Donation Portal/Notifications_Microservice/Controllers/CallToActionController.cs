@@ -18,34 +18,34 @@ namespace Notifications_Microservice.Controllers
         private readonly NotificationsDbContext _context;
         private readonly ICallToActionService _service;
 
-        CallToActionController(NotificationsDbContext notificationsDBContext ,ICallToActionService callToActionService )
-        {
-            _context = notificationsDBContext;
-            _service = callToActionService;
-        }
-        // GET: api/CallToAction
-        [HttpPost("sendmail")]
-        public ActionResult SendEmail()
-        {
-            _service.SendEmailWhenBloodIsNeeded("marian_vladut52@yahoo.com", "test", "altceva");
-            return Ok();
-        }
-
-        // GET: api/CallToAction/5
-        //[HttpGet("{id}", Name = "Get")]
-        //public void SendEmail(string email, string subject, string content)
+        //CallToActionController(NotificationsDbContext notificationsDBContext ,ICallToActionService callToActionService )
         //{
-        //    _service.SendEmailWhenBloodIsNeeded(email, subject, content);
-
+        //    _context = notificationsDBContext;
+        //    _service = callToActionService;
+        //}
+        //// GET: api/CallToAction
+        //[HttpPost("sendmail")]
+        //public ActionResult SendEmail()
+        //{
+        //    _service.SendEmailWhenBloodIsNeeded("marian_vladut52@yahoo.com", "test", "altceva");
+        //    return Ok();
         //}
 
-        // POST: api/CallToAction
-        [HttpPost]
-        public async Task<ActionResult<PublicNotification>> Post([FromBody]string city, [FromBody]string country, [FromBody] string bloodTypeNeeded, [FromBody] string donationCenter)
-        {
-            await _service.NotifyWhenBloodIsNeeded(city, country, bloodTypeNeeded, donationCenter);
-            return Ok();
-        }
+        //// GET: api/CallToAction/5
+        ////[HttpGet("{id}", Name = "Get")]
+        ////public void SendEmail(string email, string subject, string content)
+        ////{
+        ////    _service.SendEmailWhenBloodIsNeeded(email, subject, content);
+
+        ////}
+
+        //// POST: api/CallToAction
+        //[HttpPost]
+        //public async Task<ActionResult<PublicNotification>> Post([FromBody]string city, [FromBody]string country, [FromBody] string bloodTypeNeeded, [FromBody] string donationCenter)
+        //{
+        //    await _service.NotifyWhenBloodIsNeeded(city, country, bloodTypeNeeded, donationCenter);
+        //    return Ok();
+        //}
 
         //// PUT: api/CallToAction/5
         //[HttpPut("{id}")]
