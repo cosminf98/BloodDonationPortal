@@ -1,91 +1,53 @@
-body{
-  background-color:  #FEF0E5;
-}
-
-.toolbar{
-  background-color:	#FB8C81;
-}
-
-.get-closer{
-  width: 25px;
-}
-
-.login{
-  font-size: 30px;
-  cursor: pointer;
-}
-
-.form-wrapper{
-  background-color: white;
-  width: 50%;
-  height: 80%;
-  margin-left: 26%;
-  position: relative;
-  top: 5%;
-  padding-top: 20px;
-}
-
-.form-control{
-  width: 100%;
-  border-radius: 5px;
-  background-color:	#DCDCDC;
-  height: 20px;
-}
-
-.form-group{
-  width: 100%;
-}
-
-.form{
-  margin: auto;
-  width: 80%;
-}
-
 .back{
-  background-color: #FEF0E5;
-  margin-top: 0.65%;
+    background-color: #FEF0E5;
+    margin-top: 0.65%;
+  }
+  
+.is-fullheight {
+    height: 150vh;
+  }
+
+.user-option{
+    height: 50px;
+    width: 100px;
+    margin-right: 50px;
+    cursor: pointer;
+    background-color:  #FB8C81;
+    border-radius: 5px;
 }
 
-.is-fullheight {
-  height: 150vh;
+.user-option:hover{
+    background-color: lightgray;
+}
+
+.container{
+    top: 20%;
+    position: relative;
+    left: 40%;
 }
 
 .text{
-  color: #696969;
-  font-weight: bold;
-  font-size: 15px;
-}
+    color: #696969;
+    font-weight: bold;
+    font-size: 15px;
+  }
 
-h3{
-  text-align: center;
-  margin-bottom: 5%;
-}
+  h3{
+    text-align: center;
+    margin-bottom: 10%;
+    position: relative;
+    font-size: 30px;
+    left: 45px;
+    bottom: 30px;
+    color: #696969;
+    font-weight: bold;
+  }
 
-.title{
-  font-size: 40px;
-}
+  .buttons{
+    float: left;
+    clear: left;
+  }
 
-.lighter-text{
-  color:  #8c8c8c;
-  width: 90%;
-  margin-left: 20%;
-  font-size: 18px;
-}
-.btn{
-  background-color:  #FB8C81;
-  border-radius: 5px;
-  width : 100%;
-  margin-top: 10%;
-  margin-bottom: 5%;
-  height: 40px;
-}
-
-.login-button{
-  text-align: right;
-  padding-right: 25%;
-  cursor: pointer;
-}
-
-input{
-  font-size: 25px;
-}
+  .register{
+      float: left;
+  }

@@ -1,30 +1,12 @@
 <div class="back is-fullheight">
-  <div class="form-wrapper">
-
-    <h3 class="title text"> Sign into your account </h3>
-    <form class="form" method="post" novalidate>
-
-      <div asp-validation-summary="ModelOnly"></div>
-      <div class="form-group">
-        <div class="text" asp-for="email">Email</div>
-        <label>
-          <input asp-for="email" class="form-control"/>
-        </label>
-        <span asp-validation-for="email" class="text-muted"></span>
-      </div>
-      <div class="form-group">
-        <div class="text" asp-for="password">Password</div>
-        <label>
-          <input asp-for="password" type="password" class="form-control"/>
-        </label>
-        <span asp-validation-for="password" class="text-muted"></span>
-      </div>
-      <div class="form-group">
-        <input type="submit" value="Sign in" class="btn btn-success text"/>
-      </div>
-
-    </form>
-    <div class="lighter-text">Don't have an account?</div>
-    <div class="register-button text" routerLink="/register">Register</div>
+    <div class="container">
+        <div class="login">
+        <h3>Login as:</h3>
+        </div>
+        <div class="buttons">
+        <button class="user-option text" routerLink="/login/login-d">Donor</button>
+        <button class="user-option text" routerLink="/login/login-h">Hospital</button>
+        </div>
     </div>
 </div>
+  

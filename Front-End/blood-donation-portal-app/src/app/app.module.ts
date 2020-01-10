@@ -10,6 +10,10 @@ import { AccountComponent } from './account/account.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpHeaders } from '@angular/common/http';
+import { RegisterHComponent } from './register-h/register-h.component';
+import { RegisterDComponent } from './register-d/register-d.component';
+import { LoginDComponent } from './login-d/login-d.component';
+import { LoginHComponent } from './login-h/login-h.component';
 //
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { HttpHeaders } from '@angular/common/http';
     LoginComponent,
     HomeComponent,
     RegisterComponent,
-    AccountComponent
+    AccountComponent,
+    RegisterHComponent,
+    RegisterDComponent,
+    LoginDComponent,
+    LoginHComponent
   ],
   imports: [
     BrowserModule,
