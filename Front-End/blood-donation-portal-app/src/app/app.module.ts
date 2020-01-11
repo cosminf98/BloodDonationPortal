@@ -14,6 +14,7 @@ import { RegisterHComponent } from './register-h/register-h.component';
 import { RegisterDComponent } from './register-d/register-d.component';
 import { LoginDComponent } from './login-d/login-d.component';
 import { LoginHComponent } from './login-h/login-h.component';
+import { HospitalsNearbyComponent } from './hospitals-nearby/hospitals-nearby.component';
 //
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { LoginHComponent } from './login-h/login-h.component';
     RegisterHComponent,
     RegisterDComponent,
     LoginDComponent,
-    LoginHComponent
+    LoginHComponent,
+    HospitalsNearbyComponent
   ],
   imports: [
     BrowserModule,

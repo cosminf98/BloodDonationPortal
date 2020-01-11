@@ -26,7 +26,7 @@ namespace Hospital_Microservice.Controllers
         }
 
         // GET: api/Hospitals/city
-        [HttpGet("{city}")]
+        [HttpGet("{cityOrCounty}")]
         public async Task<ActionResult<IEnumerable<Hospital>>> GetHospitalsByCity(string cityOrCounty)
         {
             var cities = await _service.GetHospitalsByCityOrCountyAsync(cityOrCounty);

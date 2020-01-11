@@ -60,7 +60,7 @@ namespace Donor_Microservice.Controllers
             return donor;
         }
 
-        //GET: api/Donors/5
+        //GET: api/gethistory/5
         [Authorize]
         [HttpGet("gethistory/{id}")]
         public async Task<ActionResult<IEnumerable<Donation>>> GetHistory(Guid id)

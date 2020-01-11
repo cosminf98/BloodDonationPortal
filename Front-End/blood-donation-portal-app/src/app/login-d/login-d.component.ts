@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {RegisterComponent} from "../register/register.component";
 import { FormGroup, FormBuilder, FormControl } from '@angular/forms';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
@@ -11,6 +10,8 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 export class LoginDComponent implements OnInit {
   SERVER_URL = "https://localhost:44302/api/donoraccounts/login";
   loginForm: FormGroup;
+  token: any;
+
   constructor(private formBuilder: FormBuilder, private httpClient: HttpClient) { }
 
 
@@ -36,10 +37,11 @@ onSubmit() {
     .subscribe(
       (data:any) => {
         console.log(data);
+        this.token = data.token;
       });
-      console.log('this');
       
   console.log(json);
+  console.log(this.token);
   this.loginForm.reset();
 }
 }

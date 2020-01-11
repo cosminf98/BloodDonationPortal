@@ -31,32 +31,15 @@ export class RegisterDComponent implements OnInit {
 //
   onSubmit() {
 
-    // const formData = new FormData();
-    // formData.append('FirstName', this.uploadForm.get('first-name').value);
-    
-    // this.httpClient.post<any>(this.SERVER_URL, formData).subscribe(
-    //   (res) => console.log(res),
-    //   (err) => console.log(err)
-    // );
-    // let httpHeaders = new HttpHeaders({ 'Content-Type': 'application/json' });
-    // httpHeaders.append('Accept', 'application/json');
-    // let  options = {
-    //   headers : httpHeaders,
-    //   responseType : "application/json"
-    // }
     let httpOptions = {
       headers: new HttpHeaders({ 'Content-Type': 'application/json'})
     };  
-// 
-    //  const json = JSON.stringify(this.uploadForm.valid);
-    //  const jsonObj =JSON.parse(json)
-    //  console.log(jsonReq);
 
     const json = JSON.stringify({
       "UserName" : this.uploadForm.value.username,
       "Email" : this.uploadForm.value.email,
-      "FirstName" : this.uploadForm.value.firstname,
-      "LastName" : this.uploadForm.value.lastname,
+      "FirstName" : this.uploadForm.value.firstName,
+      "LastName" : this.uploadForm.value.lastName,
       "Gender" : this.uploadForm.value.gender,
       "DateOfBirth" : this.uploadForm.value.dateOfBirth,
       "BloodType" : this.uploadForm.value.bloodType,
