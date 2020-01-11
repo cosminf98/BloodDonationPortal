@@ -7,20 +7,43 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   styleUrls: ['./hospitals-nearby.component.css']
 })
 export class HospitalsNearbyComponent implements OnInit {
-  SERVER_URL = "https://localhost:44301/api/Hospitals/Iasi";
+  SERVER_URL: any;
   hospitals: any;
+  httpOptions: { headers: HttpHeaders; };
+  city:string= "";
+  token: any;
+  id: any;
+  user: any;
+  auth: any;
+
   constructor(private httpClient: HttpClient) { }
 
   ngOnInit() {
-    let httpOptions = {
-    headers: new HttpHeaders({'Content-Type': 'application/json',
-    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJEb25vckVtYWlsIjoibXktZW1haWxAZ21haWwuY29tIiwiSWQiOiI2MWNiN2VkOS05MTAwLTRhOTktYzJjNy0wOGQ3OTUwODFiMzgiLCJleHAiOjE1NzkzNDU5NTEsImlzcyI6IjQ0MzE1IiwiYXVkIjoiNDQzMTUifQ.eAwSPPL8Jz0QTq_EzJHxtg1Tasjklpg1pZqq_wUFb9M'})
-  };
-    this.httpClient.get(this.SERVER_URL,httpOptions).subscribe((response)=>{
+    this.id = localStorage.getItem('donor-id');
+    
+    this.SERVER_URL = "https://localhost:44302/api/Donors/" + this.id ;
+    this.auth = "Bearer " + localStorage.getItem('donor-token');
+    this.httpOptions = {
+      headers: new HttpHeaders({'Content-Type': 'application/json',
+      'Authorization': this.auth})
+    };
+
+    this.httpClient.get(this.SERVER_URL,this.httpOptions).subscribe((response)=>{
+      console.log(response);
+      this.user = response;
+      this.searchByCityOrCounty(this.user.city);
+    });
+
+  }
+
+  searchByCityOrCounty(cityOrCounty){
+    console.log(cityOrCounty);
+    this.SERVER_URL = "https://localhost:44301/api/Hospitals/"+cityOrCounty;
+    
+    this.httpClient.get(this.SERVER_URL,this.httpOptions).subscribe((response)=>{
       console.log(response);
       this.hospitals = response;
     });
-    
   }
 
 }

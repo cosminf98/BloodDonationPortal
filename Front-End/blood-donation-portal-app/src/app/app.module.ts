@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -15,6 +16,7 @@ import { RegisterDComponent } from './register-d/register-d.component';
 import { LoginDComponent } from './login-d/login-d.component';
 import { LoginHComponent } from './login-h/login-h.component';
 import { HospitalsNearbyComponent } from './hospitals-nearby/hospitals-nearby.component';
+import { NotifierModule } from 'angular-notifier';
 //
 @NgModule({
   declarations: [
@@ -34,7 +36,8 @@ import { HospitalsNearbyComponent } from './hospitals-nearby/hospitals-nearby.co
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    NotifierModule
   ],
   providers: [],
   bootstrap: [AppComponent]
