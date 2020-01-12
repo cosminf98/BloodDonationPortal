@@ -5,62 +5,55 @@
       <form  class="form" [formGroup]="uploadForm" method="post"  (ngSubmit)="onSubmit()" novalidate>
   
         <div asp-validation-summary="ModelOnly"></div>
+
         <div class="form-group">
           <div class="text" asp-for="username" >Username</div>
-          <label>
-            <input asp-for="username" class="form-control" formControlName="username"/>
-          </label>
+          <input asp-for="username" class="form-control" formControlName="username"/>
           <span asp-validation-for="username" class="text-muted"></span>
         </div>
+
         <div class="form-group">
           <div class="text" asp-for="name" >Name</div>
-          <label>
-            <input asp-for="name" class="form-control" formControlName="name"/>
-          </label>
+          <input asp-for="name" class="form-control" formControlName="name"/>
           <span asp-validation-for="name" class="text-muted"></span>
         </div>
+
         <div class="form-group">
           <div class="text" asp-for="city">City</div>
-          <label>
-            <input asp-for="city" class="form-control" formControlName="city"/>
-          </label>
+          <input asp-for="city" class="form-control" formControlName="city"/>
           <span asp-validation-for="city" class="text-muted"></span>
         </div>
+
         <div class="form-group">
-            <div class="text" asp-for="county">county</div>
-            <label>
-              <input asp-for="county" class="form-control" formControlName="county"/>
-            </label>
-            <span asp-validation-for="county" class="text-muted"></span>
+          <div class="text" asp-for="county">County</div>
+          <input asp-for="county" class="form-control" formControlName="county"/>
+          <span asp-validation-for="county" class="text-muted"></span>
         </div>
+
         <div class="form-group">
-            <div class="text" asp-for="address">Address</div>
-            <label>
-              <input asp-for="address" class="form-control" formControlName="address"/>
-            </label>
-            <span asp-validation-for="address" class="text-muted"></span>
-          </div>
+          <div class="text" asp-for="address">Address</div>
+          <input asp-for="address" class="form-control" formControlName="address"/>
+          <span asp-validation-for="address" class="text-muted"></span>
+        </div>
+
         <div class="form-group">
           <div class="text" asp-for="email">Email</div>
-          <label>
-            <input asp-for="email" class="form-control" formControlName="email"/>
-          </label>
+          <input asp-for="email" class="form-control" formControlName="email"/>
           <span asp-validation-for="email" class="text-muted"></span>
         </div>
+
         <div class="form-group">
           <div class="text" asp-for="password">Password</div>
-          <label>
-            <input asp-for="password" type="password" class="form-control" formControlName="password"/>
-          </label>
+          <input asp-for="password" type="password" class="form-control" formControlName="password"/>
           <span asp-validation-for="password" class="text-muted"></span>
         </div>
+
         <div class="form-group">
           <div class="text" asp-for="confirm-password">Confirm Password</div>
-          <label>
-            <input asp-for="confirm-password" type="password" class="form-control"/>
-          </label>
+          <input asp-for="confirm-password" type="password" class="form-control"/>
           <span asp-validation-for="confirm-password" class="text-muted"></span>
         </div>
+
         <div class="form-group">
           <input type="submit" value="Create account" class="btn btn-success text"/>
         </div>

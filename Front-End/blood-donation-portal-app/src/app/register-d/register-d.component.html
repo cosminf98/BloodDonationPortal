@@ -5,76 +5,87 @@
     <form  class="form" [formGroup]="uploadForm" method="post"  (ngSubmit)="onSubmit()" novalidate>
 
       <div asp-validation-summary="ModelOnly"></div>
+
       <div class="form-group">
         <div class="text" asp-for="username" >Username</div>
-        <label>
-          <input asp-for="username" class="form-control" formControlName="username"/>
-        </label>
+        <input asp-for="username" class="form-control" formControlName="username"/>
         <span asp-validation-for="username" class="text-muted"></span>
       </div>
+
       <div class="form-group">
         <div class="text" asp-for="first-name" >First Name</div>
-        <label>
-          <input asp-for="first-name" class="form-control" formControlName="firstName"/>
-        </label>
+        <input asp-for="first-name" class="form-control" formControlName="firstName"/>
         <span asp-validation-for="first-name" class="text-muted"></span>
       </div>
+
       <div class="form-group">
         <div class="text" asp-for="last-name">Last Name</div>
-        <label>
-          <input asp-for="last-name" class="form-control" formControlName="lastName"/>
-        </label>
+        <input asp-for="last-name" class="form-control" formControlName="lastName"/>
         <span asp-validation-for="last-name" class="text-muted"></span>
       </div>
+
       <div class="form-group">
         <div class="text" asp-for="gender">Gender</div>
-        <label>
-          <input asp-for="gender" class="form-control" formControlName="gender"/>
-        </label>
+        <input list="gender" asp-for="gender" class="form-control gender" formControlName="gender"/>
+        <datalist id="gender">
+          <option value="M">
+          <option value="F">
+        </datalist>
         <span asp-validation-for="gender" class="text-muted"></span>
       </div>
+
       <div class="form-group">
         <div class="text" asp-for="birth">Date of birth</div>
-        <label>
-          <input asp-for="birth" class="form-control" formControlName="dateOfBirth"/>
-        </label>
+        <input type="text" asp-for="birth" placeholder="YYYY-MM-DD" required pattern="(?:19|20)[0-9]{2}-(?:(?:0[1-9]|1[0-2])/(?:0[1-9]|1[0-9]|2[0-9])|(?:(?!02)(?:0[1-9]|1[0-2])/(?:30))|(?:(?:0[13578]|1[02])-31))" class="form-control date" formControlName="dateOfBirth"/>
         <span asp-validation-for="birth" class="text-muted"></span>
       </div>
+
       <div class="form-group">
         <div class="text" asp-for="blood-type">Blood Type</div>
-        <label>
-          <input asp-for="blood-type" class="form-control" formControlName="bloodType"/>
-        </label>
+        <input list="blood-type" asp-for="blood-type" class="form-control blood" formControlName="bloodType"/>
+        <datalist id="blood-type">
+          <option value="A+">
+          <option value="A-">
+          <option value="B+">
+          <option value="B-">
+          <option value="AB+">
+          <option value="AB-">
+          <option value="O+">
+          <option value="O-">
+        </datalist>
         <span asp-validation-for="blood-type" class="text-muted"></span>
       </div>
+
       <div class="form-group">
         <div class="text" asp-for="city">City</div>
-        <label>
-          <input asp-for="city" class="form-control" formControlName="city"/>
-        </label>
+        <input asp-for="city" class="form-control" formControlName="city"/>
         <span asp-validation-for="city" class="text-muted"></span>
       </div>
+
+      <div class="form-group">
+        <div class="text" asp-for="county">County</div>
+        <input asp-for="county" class="form-control" formControlName="county"/>
+        <span asp-validation-for="county" class="text-muted"></span>
+      </div>
+
       <div class="form-group">
         <div class="text" asp-for="email">Email</div>
-        <label>
-          <input asp-for="email" class="form-control" formControlName="email"/>
-        </label>
+        <input asp-for="email" class="form-control" formControlName="email"/>
         <span asp-validation-for="email" class="text-muted"></span>
       </div>
+
       <div class="form-group">
         <div class="text" asp-for="password">Password</div>
-        <label>
-          <input asp-for="password" type="password" class="form-control" formControlName="password"/>
-        </label>
+        <input asp-for="password" type="password" class="form-control" formControlName="password"/>
         <span asp-validation-for="password" class="text-muted"></span>
       </div>
+
       <div class="form-group">
         <div class="text" asp-for="confirm-password">Confirm Password</div>
-        <label>
-          <input asp-for="confirm-password" type="password" class="form-control"/>
-        </label>
+        <input asp-for="confirm-password" type="password" class="form-control"/>
         <span asp-validation-for="confirm-password" class="text-muted"></span>
       </div>
+
       <div class="form-group">
         <input type="submit" value="Create account" class="btn btn-success text"/>
       </div>

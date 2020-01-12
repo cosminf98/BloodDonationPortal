@@ -51,7 +51,7 @@ input.first-name,input.last-name{
   width: 40%;
 }
 
-input.blood,input.gender,input.rh{
+input.blood,input.gender{
   width: 20%;
 }
 
@@ -60,14 +60,11 @@ input.date{
   font-size: 15px;
 }
 
-input.country{
+input.county{
   width: 40%;
 }
 
 input.blood::-webkit-calendar-picker-indicator {
-  opacity: 100;
-}
-input.rh::-webkit-calendar-picker-indicator {
   opacity: 100;
 }
 
@@ -75,7 +72,7 @@ input.gender::-webkit-calendar-picker-indicator {
   opacity: 100;
 }
 
-input.country::-webkit-calendar-picker-indicator {
+input.county::-webkit-calendar-picker-indicator {
   opacity: 100;
 }
 

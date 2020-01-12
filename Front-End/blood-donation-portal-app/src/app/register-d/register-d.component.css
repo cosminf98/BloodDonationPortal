@@ -89,3 +89,23 @@ h3{
 input{
   font-size: 25px;
 }
+
+input.blood,input.gender,input.county{
+  width: 40%;
+}
+
+input.date{
+  height: 27px;
+}
+
+input.blood::-webkit-calendar-picker-indicator {
+  opacity: 100;
+}
+
+input.gender::-webkit-calendar-picker-indicator {
+  opacity: 100;
+}
+
+input.county::-webkit-calendar-picker-indicator {
+  opacity: 100;
+}

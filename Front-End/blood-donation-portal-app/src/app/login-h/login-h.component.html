@@ -5,20 +5,19 @@
       <form class="form" [formGroup]="loginForm" method="post" (ngSubmit)="onSubmit()" novalidate>
   
         <div asp-validation-summary="ModelOnly"></div>
+
         <div class="form-group">
           <div class="text" asp-for="email">Email</div>
-          <label>
-            <input asp-for="email" class="form-control" formControlName="email"/>
-          </label>
+          <input asp-for="email" class="form-control" formControlName="email"/>
           <span asp-validation-for="email" class="text-muted"></span>
         </div>
+
         <div class="form-group">
           <div class="text" asp-for="password">Password</div>
-          <label>
-            <input asp-for="password" type="password" class="form-control" formControlName="password"/>
-          </label>
+          <input asp-for="password" type="password" class="form-control" formControlName="password"/>
           <span asp-validation-for="password" class="text-muted"></span>
         </div>
+        
         <div class="form-group">
           <input type="submit" value="Sign in" class="btn btn-success text"/>
         </div>

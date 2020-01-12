@@ -17,6 +17,7 @@ import { LoginDComponent } from './login-d/login-d.component';
 import { LoginHComponent } from './login-h/login-h.component';
 import { HospitalsNearbyComponent } from './hospitals-nearby/hospitals-nearby.component';
 import { NotifierModule } from 'angular-notifier';
+import { FeedbackComponent } from './feedback/feedback.component';
 //
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { NotifierModule } from 'angular-notifier';
     RegisterDComponent,
     LoginDComponent,
     LoginHComponent,
-    HospitalsNearbyComponent
+    HospitalsNearbyComponent,
+    FeedbackComponent
   ],
   imports: [
     BrowserModule,

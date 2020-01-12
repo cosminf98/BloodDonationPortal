@@ -23,6 +23,7 @@ export class RegisterDComponent implements OnInit {
         dateOfBirth    : new FormControl(),
         bloodType    : new FormControl(),
         city    : new FormControl(),
+        county    : new FormControl(),
         email    : new FormControl(),
         password    : new FormControl(),
       });
@@ -44,6 +45,7 @@ export class RegisterDComponent implements OnInit {
       "DateOfBirth" : this.uploadForm.value.dateOfBirth,
       "BloodType" : this.uploadForm.value.bloodType,
       "City" : this.uploadForm.value.city,
+      "County" : this.uploadForm.value.county,
       "Password" : this.uploadForm.value.password
     });
      

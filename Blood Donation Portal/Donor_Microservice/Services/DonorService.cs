@@ -77,6 +77,7 @@ namespace Donor_Microservice.Services
                 LastName = info.LastName,
                 BloodType = info.BloodType,
                 City = info.City,
+                County = info.County,
                 Gender = info.Gender,
                 DateOfBirth = info.DateOfBirth,
             };

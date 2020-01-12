@@ -1,0 +1,27 @@
+<div class="back is-fullheight">
+    <div class="form-wrapper">
+  
+      <h3 class="title text"> Feedback Form </h3>
+      <h4 class="lighter-text" >We would love to hear your thoughts, concerns or problems with anything so we can improve!</h4>
+      <form class="form" [formGroup]="feedbackForm" method="post" (ngSubmit)="onSubmit()" novalidate>
+  
+        <div asp-validation-summary="ModelOnly"></div>
+        <div class="form-group">
+          <div class="text" asp-for="email">Email</div>
+            <input asp-for="email" class="form-control" formControlName="email"/>
+          <span asp-validation-for="email" class="text-muted"></span>
+        </div>
+        <div class="form-group">
+          <div class="text" asp-for="message">Message</div>
+            <input asp-for="message" class="form-control message" formControlName="message"/>
+          <span asp-validation-for="message" class="text-muted"></span>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Submit Feedback" class="btn btn-success text"/>
+        </div>
+  
+      </form>
+      <notifier-container></notifier-container>
+      </div>
+  </div>
+  

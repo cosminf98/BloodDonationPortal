@@ -13,10 +13,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Feedback_Microservice.Persistence.Contexts.FeedbackDbContext feedbackDbContext = new Feedback_Microservice.Persistence.Contexts.FeedbackDbContext();
-            NotificationsDbContext db = new NotificationsDbContext();
-            HospitalDbContext hospitalDbContext = new HospitalDbContext();
-            AdminDbContext adminDbContext = new AdminDbContext();
+            //Feedback_Microservice.Persistence.Contexts.FeedbackDbContext feedbackDbContext = new Feedback_Microservice.Persistence.Contexts.FeedbackDbContext();
+            //NotificationsDbContext db = new NotificationsDbContext();
+            //HospitalDbContext hospitalDbContext = new HospitalDbContext();
+            //AdminDbContext adminDbContext = new AdminDbContext();
             DonorDbContext donorDbContext = new DonorDbContext();
         }
     }

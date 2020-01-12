@@ -46,7 +46,8 @@ namespace Donor_Microservice.Controllers
                     Gender = donor.Gender,
                     DateOfBirth = donor.DateOfBirth,
                     BloodType = donor.BloodType,
-                    City = donor.City
+                    City = donor.City,
+                    County = donor.County
                 };
                 await _userMng.CreateAsync(user, donor.Password);
                 return Ok(user);

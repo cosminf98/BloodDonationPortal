@@ -53,8 +53,6 @@ onSubmit() {
         
     console.log(json);
     this.loginForm.reset();
-    
-  
-  
 }
+
 }
