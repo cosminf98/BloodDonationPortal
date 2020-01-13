@@ -18,6 +18,8 @@ import { LoginHComponent } from './login-h/login-h.component';
 import { HospitalsNearbyComponent } from './hospitals-nearby/hospitals-nearby.component';
 import { NotifierModule } from 'angular-notifier';
 import { FeedbackComponent } from './feedback/feedback.component';
+import { LogoutComponent } from './logout/logout.component';
+import { AddComponent } from './add/add.component';
 //
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { FeedbackComponent } from './feedback/feedback.component';
     LoginDComponent,
     LoginHComponent,
     HospitalsNearbyComponent,
-    FeedbackComponent
+    FeedbackComponent,
+    LogoutComponent,
+    AddComponent
   ],
   imports: [
     BrowserModule,

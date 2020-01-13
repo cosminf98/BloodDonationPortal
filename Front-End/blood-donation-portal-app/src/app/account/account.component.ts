@@ -23,30 +23,41 @@ export class AccountComponent implements OnInit {
   address:string = "";
   city:string = "";
   county:string = "";
+  donations: any;
 
   
   constructor(private httpClient: HttpClient) { }
 
   ngOnInit() {
-    this.id = localStorage.getItem('donor-id');
-    this.SERVER_URL = "https://localhost:44302/api/Donors/" + this.id ;
-    this.auth = "Bearer " + localStorage.getItem('donor-token');
-    this.httpOptions = {
-      headers: new HttpHeaders({'Content-Type': 'application/json',
-      'Authorization': this.auth})
-    };
+    
+    
+      this.id = localStorage.getItem('donor-id');
+      this.SERVER_URL = "https://localhost:44302/api/Donors/" + this.id ;
+      this.auth = "Bearer " + localStorage.getItem('donor-token');
+      this.httpOptions = {
+        headers: new HttpHeaders({'Content-Type': 'application/json',
+        'Authorization': this.auth})
+      };
 
-    this.httpClient.get(this.SERVER_URL,this.httpOptions).subscribe((response)=>{
-      console.log(response);
-      this.user = response;
-      this.firstName = this.user.firstName;
-      this.lastName = this.user.lastName;
-      this.date = this.user.dateOfBirth;
-      this.bloodType = this.user.bloodType;
-      this.gender = this.user.gender;
-      this.email = this.user.email;
-      this.city = this.user.city;
-      this.county = this.user.county;
-    });
-  }
+      this.httpClient.get(this.SERVER_URL,this.httpOptions).subscribe((response)=>{
+        console.log(response);
+        this.user = response;
+        this.firstName = this.user.firstName;
+        this.lastName = this.user.lastName;
+        this.date = this.user.dateOfBirth;
+        this.bloodType = this.user.bloodType;
+        this.gender = this.user.gender;
+        this.email = this.user.email;
+        this.city = this.user.city;
+        this.county = this.user.county;
+      });
+
+      this.SERVER_URL = "https://localhost:44302/api/Donors/gethistory/" + this.id ;
+
+      this.httpClient.get(this.SERVER_URL,this.httpOptions).subscribe((response)=>{
+        console.log(response);
+        this.donations = response;
+      });
+    }
+    
 }

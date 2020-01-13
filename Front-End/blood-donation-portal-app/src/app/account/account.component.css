@@ -96,3 +96,15 @@ input.county::-webkit-calendar-picker-indicator {
 input{
   font-size: 25px;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: left;
+}
+
+li.text{
+  font-size: 30px;
+}

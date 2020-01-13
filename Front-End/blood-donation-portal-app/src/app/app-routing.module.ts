@@ -10,14 +10,18 @@ import {RegisterHComponent} from "./register-h/register-h.component";
 import {RegisterDComponent} from "./register-d/register-d.component";
 import { HospitalsNearbyComponent } from './hospitals-nearby/hospitals-nearby.component';
 import { FeedbackComponent } from './feedback/feedback.component';
+import { LogoutComponent } from './logout/logout.component';
+import { AddComponent } from './add/add.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'login', component: LoginComponent},
+  {path: 'logout', component: LogoutComponent},
   {path: 'account', component: AccountComponent},
   {path: 'register', component: RegisterComponent},
   {path: 'feedback', component: FeedbackComponent},
   {path: 'hospitals/nearby', component: HospitalsNearbyComponent},
+  {path: 'add', component: AddComponent},
   {path: 'register/register-d', component: RegisterDComponent},
   {path: 'register/register-h', component: RegisterHComponent},
   {path: 'login/login-d', component: LoginDComponent},

@@ -51,10 +51,7 @@
 
     <h3 class="title text"> Contact Information </h3>
     <form class="form">
-      <div class="lighter-text info" hidden>Address:
-          <input [(ngModel)]="address" name="address" class="form-control"/>
-      </div>
-
+    
       <div class="lighter-text info">City
           <input [(ngModel)]="city" name="city" class="form-control"/>
       </div>
@@ -66,11 +63,17 @@
     </form>
 
     <h3 class="title text"> Donation History </h3>
-    <form class="form" method="get">
+    <form class="form" >
+      <div class="container">
+        <ul>
+            <li class="lighter-text" *ngFor="let donation of donations;">
+               * {{donation.donationCenter}} : {{donation.donationDate}}
+            </li>
+        </ul>
+    </div>
     </form>
 
-    <input type="submit" value="Save changes" class="btn"/>
-
+    <input type="submit" value="Save changes" class="btn" hidden />
 
   </div>
 </div>

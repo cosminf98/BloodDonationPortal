@@ -1,0 +1,26 @@
+<div class="back is-fullheight">
+    <div id="hide">
+        <div class="buttons">
+            <h3 class="title text">Add a mobile bank</h3>
+            <button class="btn text" (click)="addMobileBank()"></button>
+        </div>
+        <div class="buttons">
+            <h3 class="title text">Add a donation</h3>
+            <button class="btn text" (click)="addDonation()"></button>
+        </div>
+    </div>
+    <form class="form mobilebank" id="mobilebank" [formGroup]="mobilebankForm" method="post" (ngSubmit)="onSubmitMobileBank()" novalidate hidden>
+        <div class="form-group">
+            <div class="text" asp-for="email">Email</div>
+              <input asp-for="email" class="form-control" formControlName="email"/>
+            <span asp-validation-for="email" class="text-muted"></span>
+        </div>
+    </form>
+
+    <form class="form donation" id="donation" [formGroup]="donationForm" method="post" (ngSubmit)="onSubmitDonation()" novalidate hidden>
+
+    </form>
+
+    <notifier-container></notifier-container>
+</div>
+  

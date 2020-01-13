@@ -1,13 +1,21 @@
 <div class="toolbar">
   <ul>
-    <li class="user-icon"><i class="material-icons get-closer" routerLink="account">account_circle</i>
-      <i class="material-icons get-down"routerLink="account">keyboard_arrow_down</i>
-    </li>
-    <li><i class="material-icons" routerLink="">home</i></li>
-    <li><i class="material-icons" routerLink="feedback">message</i></li>
-    <li><i class="material-icons" routerLink='hospitals/nearby'>local_hospital</i></li>
-    <li><div class="login" routerLink="login">Login</div></li>
-    <li><div class="register" routerLink="register">Register</div></li>
+    <div class="left">
+      <li id="account" class="user-icon"><i class="material-icons get-closer" routerLink="account">account_circle</i>
+        <i class="material-icons get-down" routerLink="account">keyboard_arrow_down</i>
+      </li>
+      <li><i class="material-icons" routerLink="">home</i></li>
+      <li id="message"><i class="material-icons" routerLink="feedback">message</i></li>
+      <li id="hospitals-nearby" ><i class="material-icons" routerLink='hospitals/nearby'>local_hospital</i></li>
+      <li id="add"><i class="material-icons" routerLink="add">post_add</i></li>
+    </div>
+    
+    <div class="right">
+      <li id="login" ><div class="login" routerLink="login">Login</div></li>
+      <li id="register"><div class="register" routerLink="register">Register</div></li>
+      <li id="logout" ><div class="logout" routerLink="logout">Logout</div></li>
+    </div>
+    
   </ul>
   <img class="small-logo" src="/assets/img/small-logo.jpg"/>
 </div>

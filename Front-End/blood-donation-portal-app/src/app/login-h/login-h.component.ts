@@ -49,10 +49,13 @@ onSubmit() {
           this.notifierService.notify("error", "You are already logged in!");
         }
         localStorage.setItem('hospital-token',data.token);
+        localStorage.setItem('user', 'hospital');
+        localStorage.setItem('login', 'true');
+        window.location.replace("http://localhost:4200");
       });
       
   console.log(json);
   this.loginForm.reset();
-
+  
 }
 }

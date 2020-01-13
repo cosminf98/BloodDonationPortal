@@ -4,17 +4,11 @@
   background-position: center center;
 
 }
-.is-info {
-
-}
 
 .is-fullheight {
   height: 100vh;
 }
 
-.is-bold {
-
-}
 .logo{
   background-image: url('/assets/img/logo.jpg') !important;
   height: 45vh;
@@ -70,8 +64,17 @@ li:hover{
   background-color: #888888;
 }
 
-.login,.register{
+.login,.register,.logout{
   font-size: 30px;
   cursor: pointer;
   width: 110px;
+  float: right;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
 }

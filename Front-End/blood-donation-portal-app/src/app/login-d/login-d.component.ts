@@ -49,10 +49,14 @@ onSubmit() {
             this.notifierService.notify("error", "You are already logged in!");
           }
           localStorage.setItem('donor-token',data.token);
+          localStorage.setItem('user', 'donor');
+          localStorage.setItem('login', 'true');
+          window.location.replace("http://localhost:4200");
         });
         
     console.log(json);
     this.loginForm.reset();
+    
 }
 
 }
