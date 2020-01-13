@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Notifications_Microservice.Models;
 using Notifications_Microservice.Persistence.IRepositories;
 

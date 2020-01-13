@@ -73,6 +73,7 @@ namespace Hospital_Microservice
             services.AddScoped<IHospitalService, HospitalService>();
             services.AddScoped<IMobileBloodBankRepository, MobileBloodBankRepository>();
             services.AddScoped<IMobileBloodBankService, MobileBloodBankService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -756,3 +756,7 @@ E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Admin_Microservice
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Admin_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.dll
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Admin_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Admin_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.NodeServices.dll
+C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Admin_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.dll
+C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Admin_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
+C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Admin_Microservice\obj\Debug\netcoreapp3.0\Admin_Microservice.MvcApplicationPartsAssemblyInfo.cs

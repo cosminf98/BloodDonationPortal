@@ -1,20 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using Hospital_Microservice.AuthorizationRequirements;
 using Hospital_Microservice.DTOs;
 using Hospital_Microservice.Models;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using MailKit.Net.Smtp;
-using MailKit;
-using MimeKit;
 using Microsoft.IdentityModel.Tokens;
 
 namespace Hospital_Microservice.Controllers
@@ -47,7 +41,8 @@ namespace Hospital_Microservice.Controllers
                         Address = hospital.Address,
                         City = hospital.City,
                         County = hospital.County,
-                        Name = hospital.Name
+                        Name = hospital.Name,
+                        Schedules = hospital.Schedules
                     };
                     await _userMng.CreateAsync(user, hospital.Password);
                     return Ok(user);

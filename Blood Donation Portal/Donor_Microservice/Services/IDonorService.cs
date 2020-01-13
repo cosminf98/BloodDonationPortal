@@ -11,6 +11,7 @@ namespace Donor_Microservice.Services
     {
         Task<Donation> AddDonationToDonorHistoryAsync(string email, Donation donation);
         Task<IEnumerable<Donation>> GetDonorHistory(Guid id);
+        Task<InformationToModify> ModifyDonorData(string email, InformationToModify info);
 
         Task<bool> CheckIfElligible(Guid id);
         Task<ActionResult<Donor>> DonorRegister(RegisterInformation info);

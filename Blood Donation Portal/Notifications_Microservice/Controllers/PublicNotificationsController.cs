@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Notifications_Microservice.Models;
 using Notifications_Microservice.Persistence.Contexts;
 using Notifications_Microservice.Services;
-using MimeKit;
-using MailKit;
-using MailKit.Net.Smtp;
 
 namespace Notifications_Microservice.Controllers
 {

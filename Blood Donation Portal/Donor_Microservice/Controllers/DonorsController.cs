@@ -9,8 +9,6 @@ using Donor_Microservice.Persistence;
 using Donor_Microservice.Services;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
-using MimeKit;
-using MailKit.Net.Smtp;
 using Donor_Microservice.DTOs;
 
 namespace Donor_Microservice.Controllers
@@ -90,15 +88,36 @@ namespace Donor_Microservice.Controllers
             }
             return Unauthorized("Unauth");
         }
+		
         [AllowAnonymous]
         [HttpPost("calltoaction")]
         public ActionResult SendMail([FromBody] CallToActionDTO callToActionDTO)
         {
-            _service.CallToAction(callToActionDTO.BloodTypeNeeded, callToActionDTO.HospitalCenter, callToActionDTO.County);
-            return Ok();
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+            if (_service.Authorize(identity, "HospitalEmail"))
+            {
+                if (_service.CallToAction(callToActionDTO.BloodTypeNeeded, callToActionDTO.HospitalCenter, callToActionDTO.County))
+                    return Ok();
+                return BadRequest("Something went wrong, try again!");
+
+            }
+            return Unauthorized();
         }
 
+        //PATCH: api/donors/modifydonordata/email
+        [Authorize]
+        [HttpPatch("modifydonordata/{email}")]
+        public async Task<ActionResult<InformationToModify>> ModifyDonorData(string email, [FromBody] InformationToModify info)
+        {
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
 
+            if (_service.Authorize(identity, "DonorEmail"))
+            {
+                var infos = await _service.ModifyDonorData(email, info);
+                return Ok(infos);
+            }
+            return Unauthorized("Unauth");
+        }
 
     }
 }
