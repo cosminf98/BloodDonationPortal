@@ -69,7 +69,7 @@ namespace Donor_Microservice.Controllers
 
             if (await _userMng.CheckPasswordAsync(donor, donorDTO.Password))
             {
-                var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Constants.Secret));
+                var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Hospital_Microservice.AuthorizationRequirements.Constants.Secret));
                 var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
 
                 var claimsList = new List<Claim>()
@@ -80,8 +80,8 @@ namespace Donor_Microservice.Controllers
 
                 //Create token
                 var token = new JwtSecurityToken(
-                    issuer: Constants.Issuer,
-                    audience: Constants.Audience,
+                    issuer: Hospital_Microservice.AuthorizationRequirements.Constants.Issuer,
+                    audience: Hospital_Microservice.AuthorizationRequirements.Constants.Audience,
                     claims: claimsList,
                     expires: DateTime.Now.AddDays(7),
                     signingCredentials: signinCredentials

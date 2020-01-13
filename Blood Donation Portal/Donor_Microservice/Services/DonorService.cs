@@ -1,9 +1,14 @@
 ﻿using Donor_Microservice.Models;
+using Donor_Microservice.Constants;
 using Donor_Microservice.Persistence.IRepositories;
+using MailKit.Net.Smtp;
 using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using MimeKit;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Security.Claims;
 using System.Security.Cryptography;
@@ -77,7 +82,6 @@ namespace Donor_Microservice.Services
                 LastName = info.LastName,
                 BloodType = info.BloodType,
                 City = info.City,
-                County = info.County,
                 Gender = info.Gender,
                 DateOfBirth = info.DateOfBirth,
             };
@@ -103,6 +107,41 @@ namespace Donor_Microservice.Services
             {
                 return false;
             }
+        }
+
+        public bool CallToAction(string bloodTypeNeeded, string hospital, string county)
+        {
+            //Get matching donors' emails
+            var emails = _donorRepository.GetDonorEmails(county);
+
+            InternetAddressList recipientsList = new InternetAddressList();
+            foreach(var email in emails)
+                recipientsList.Add(new MailboxAddress(email));
+
+            //Create email
+            var message = new MimeMessage();
+            message.From.Add(new MailboxAddress(CustomConstants.AppName, CustomConstants.EmailFrom));
+            message.To.AddRange(recipientsList);
+            message.Subject = CustomConstants.Subject;
+            message.Body = new TextPart("plain")
+            {
+                Text = $"Hello!\n At the {hospital} hospital in {county} county there is a need of " +
+                $"{bloodTypeNeeded} blood type."
+            };
+            //Send
+            using (var client = new SmtpClient())
+            {
+                // For demo-purposes, accept all SSL certificates (in case the server supports STARTTLS)
+                client.ServerCertificateValidationCallback = (s, c, h, e) => true;
+
+                client.Connect(CustomConstants.Host, CustomConstants.Port, false);
+
+                client.Authenticate(CustomConstants.EmailFrom, CustomConstants.Password);
+
+                client.Send(message);
+                client.Disconnect(true);
+            }
+            return true;
         }
     }
 

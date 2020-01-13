@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\calin\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj": {}
+    "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\calin\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj": {
+    "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\calin\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj",
+        "projectUniqueName": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj",
         "projectName": "Feedback_Microservice",
-        "projectPath": "C:\\Users\\calin\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj",
-        "packagesPath": "C:\\Users\\calin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\calin\\Documents\\GitHub\\BloodDonationPortal\\Blood Donation Portal\\Feedback_Microservice\\obj\\",
+        "projectPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Feedback_Microservice\\Feedback_Microservice.csproj",
+        "packagesPath": "C:\\Users\\Cosmin S\\.nuget\\packages\\",
+        "outputPath": "E:\\Facultate\\.NET - Introducere\\PROJECT\\Blood Donation Portal\\Feedback_Microservice\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\calin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cosmin S\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,24 +86,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -109,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

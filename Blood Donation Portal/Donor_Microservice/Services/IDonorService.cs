@@ -16,5 +16,7 @@ namespace Donor_Microservice.Services
         Task<ActionResult<Donor>> DonorRegister(RegisterInformation info);
 
         bool Authorize(ClaimsIdentity identity, string? type);
+
+        bool CallToAction(string bloodTypeNeeded, string hospital, string county);
     }
 }

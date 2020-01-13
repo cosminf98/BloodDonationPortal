@@ -9,12 +9,9 @@ using Donor_Microservice.Persistence;
 using Donor_Microservice.Services;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
-
-using System.IdentityModel.Tokens.Jwt;
-using Microsoft.IdentityModel.Tokens;
-using Hospital_Microservice.AuthorizationRequirements;
-using System.Text;
-using System.Net.Http;
+using MimeKit;
+using MailKit.Net.Smtp;
+using Donor_Microservice.DTOs;
 
 namespace Donor_Microservice.Controllers
 {
@@ -40,7 +37,7 @@ namespace Donor_Microservice.Controllers
         }
 
         // GET: api/Donors/iselligible/id
-        [HttpGet("iselligible/{id}")]   
+        [HttpGet("iselligible/{id}")]
         public async Task<bool> IsElligible(Guid id)
         {
             return await _service.CheckIfElligible(id);
@@ -60,7 +57,7 @@ namespace Donor_Microservice.Controllers
             return donor;
         }
 
-        //GET: api/gethistory/5
+        //GET: api/Donors/5
         [Authorize]
         [HttpGet("gethistory/{id}")]
         public async Task<ActionResult<IEnumerable<Donation>>> GetHistory(Guid id)
@@ -73,7 +70,7 @@ namespace Donor_Microservice.Controllers
             
             var identity = HttpContext.User.Identity as ClaimsIdentity;
             string uid = identity.FindFirst("Id").Value;
-
+            
             //check for matching ids, so one user can't see other's history
             if (_service.Authorize(identity,"DonorEmail") && id.ToString() == uid)
                 return history.ToList();
@@ -93,5 +90,15 @@ namespace Donor_Microservice.Controllers
             }
             return Unauthorized("Unauth");
         }
+        [AllowAnonymous]
+        [HttpPost("calltoaction")]
+        public ActionResult SendMail([FromBody] CallToActionDTO callToActionDTO)
+        {
+            _service.CallToAction(callToActionDTO.BloodTypeNeeded, callToActionDTO.HospitalCenter, callToActionDTO.County);
+            return Ok();
+        }
+
+
+
     }
 }

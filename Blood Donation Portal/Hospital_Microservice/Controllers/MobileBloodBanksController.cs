@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Hospital_Microservice.Models;
-using Hospital_Microservice.Persistence.Contexts;
 using Hospital_Microservice.Services;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Authorization;
@@ -18,12 +15,11 @@ namespace Hospital_Microservice.Controllers
     [ApiController]
     public class MobileBloodBanksController : ControllerBase
     {
-        private readonly HospitalDbContext _context;
         private readonly IMobileBloodBankService _service;
 
-        public MobileBloodBanksController(HospitalDbContext context, IMobileBloodBankService service)
+        public MobileBloodBanksController( IMobileBloodBankService service)
         {
-            _context = context;
+            //_context = context;
             _service = service;
         }
 
@@ -95,9 +91,9 @@ namespace Hospital_Microservice.Controllers
             return Unauthorized();
         }
 
-        private bool MobileBloodBankExists(Guid id)
-        {
-            return _context.MobileBloodBanks.Any(e => e.Id == id);
-        }
+        //private bool MobileBloodBankExists(Guid id)
+        //{
+        //    return _context.MobileBloodBanks.Any(e => e.Id == id);
+        //}
     }
 }

@@ -16,7 +16,6 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using System.Text;
-using Microsoft.AspNetCore.SpaServices.AngularCli;
 
 namespace Donor_Microservice
 {
@@ -54,9 +53,9 @@ namespace Donor_Microservice
                     ValidateLifetime = true,
                     ValidateIssuerSigningKey = true,
 
-                    ValidIssuer = Constants.Issuer,
-                    ValidAudience = Constants.Audience,
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Constants.Secret))
+                    ValidIssuer = Hospital_Microservice.AuthorizationRequirements.Constants.Issuer,
+                    ValidAudience = Hospital_Microservice.AuthorizationRequirements.Constants.Audience,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Hospital_Microservice.AuthorizationRequirements.Constants.Secret))
                 };
                 options.SaveToken = true;
                 options.RequireHttpsMetadata = true;
@@ -74,10 +73,6 @@ namespace Donor_Microservice
 
             services.AddScoped<IDonorRepository, DonorRepository>();
             services.AddScoped<IDonorService, DonorService>();
-            services.AddSpaStaticFiles(configuration =>
-            {
-                configuration.RootPath = "../../Front-End/blood-donation-portal-app/dist";
-            });
 
         }
 
@@ -111,21 +106,6 @@ namespace Donor_Microservice
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-            });
-
-            app.UseSpaStaticFiles();
-
-            app.UseSpa(spa =>
-            {
-                // To learn more about options for serving an Angular SPA from ASP.NET Core,
-                // see https://go.microsoft.com/fwlink/?linkid=864501
-
-                spa.Options.SourcePath = "../../Front-End/blood-donation-portal-app";
-
-                if (env.IsDevelopment())
-                {
-                    spa.UseAngularCliServer(npmScript: "start");
-                }
             });
 
         }
