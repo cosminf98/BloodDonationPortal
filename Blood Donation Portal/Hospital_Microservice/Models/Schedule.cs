@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Newtonsoft.Json;
+using System;
 
 namespace Hospital_Microservice.Models
 {
@@ -17,7 +14,7 @@ namespace Hospital_Microservice.Models
         //closing hour.
         public int? OpenUntil { get; set; }
         public Guid HospitalId { get; set; }
-
+        [JsonIgnore]
         public Hospital Hospital { get; set; }
     }
 }

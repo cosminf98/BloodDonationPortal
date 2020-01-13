@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Hospital_Microservice.Models;
 using Hospital_Microservice.Repositories;
 using Microsoft.AspNetCore.Cryptography.KeyDerivation;
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Hospital_Microservice.Services
@@ -81,5 +82,14 @@ namespace Hospital_Microservice.Services
             }
         }
 
+        public Task<Hospital> GetHospitalById(Guid id)
+        {
+            return _hospitalRepository.GetHospitalById(id);
+        }
+
+        public async Task<IEnumerable<Schedule>> PatchSchedules(string email, JsonPatchDocument<Hospital> patchHospitalProgram)
+        {
+            return await _hospitalRepository.PatchSchedules(email, patchHospitalProgram);
+        }
     }
 }

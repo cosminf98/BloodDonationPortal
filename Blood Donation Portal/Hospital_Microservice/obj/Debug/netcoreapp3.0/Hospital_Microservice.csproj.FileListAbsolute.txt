@@ -1018,28 +1018,3 @@ E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Hospital_Microserv
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\BouncyCastle.Crypto.dll
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Hospital_Microservice\obj\Debug\netcoreapp3.0\Hospital_Microservice.MvcApplicationPartsAssemblyInfo.cs
 E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\Hospital_Microservice\obj\Debug\netcoreapp3.0\Hospital_Microservice.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\MailKit.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.NodeServices.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\Microsoft.Bcl.HashCode.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Identity.Core.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\MimeKit.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\BouncyCastle.Crypto.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\System.Collections.Immutable.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\sanio\Documents\GitHub\BloodDonationPortal\Blood Donation Portal\Hospital_Microservice\obj\Debug\netcoreapp3.0\Hospital_Microservice.MvcApplicationPartsAssemblyInfo.cs

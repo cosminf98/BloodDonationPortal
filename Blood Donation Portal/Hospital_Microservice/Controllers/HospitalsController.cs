@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Hospital_Microservice.Models;
-using Hospital_Microservice.Persistence.Contexts;
 using Hospital_Microservice.Services;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
+using Microsoft.AspNetCore.JsonPatch;
 
 namespace Hospital_Microservice.Controllers
 {
@@ -33,6 +33,25 @@ namespace Hospital_Microservice.Controllers
 
             return cities.ToList();
         }
+
+        
+        [HttpPatch("modifyprogram/{email}")]
+        public async Task<ActionResult<IEnumerable<Schedule>>> PatchSchedule(string email, [FromBody] JsonPatchDocument<Hospital> patchHospitalProgram)
+        {
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
+
+            IEnumerable<Schedule> schedules =  await _service.PatchSchedules(email, patchHospitalProgram);
+            return Ok(schedules);
+
+        }
+
+        //[HttpPost("addprogram/{email}")]
+        //public async Task<ActionResult<IEnumerable<Schedule>>> PatchSchedule(string email, [FromBody] JsonPatchDocument<Hospital> patchHospitalProgram)
+        //{
+        //    var identity = HttpContext.User.Identity as ClaimsIdentity;
+
+
+        //}
 
         //private bool HospitalExists(Guid id)
         //{

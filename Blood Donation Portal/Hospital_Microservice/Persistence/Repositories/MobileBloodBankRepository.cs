@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Hospital_Microservice.Models;
 using Hospital_Microservice.Persistence.Contexts;
@@ -54,7 +53,6 @@ namespace Hospital_Microservice.Persistence.Repositories
         {
             MobileBloodBank bank = await _context.MobileBloodBanks.FindAsync(id);
             if (bank == null) return null;
-
             patchBank.ApplyTo(bank);
             await _context.SaveChangesAsync();
             return bank;

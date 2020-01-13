@@ -1,7 +1,4 @@
-﻿using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Donor_Microservice.Models;
+﻿using Microsoft.AspNetCore.Mvc;
 using Donor_Microservice.Persistence;
 using Donor_Microservice.Services;
 
