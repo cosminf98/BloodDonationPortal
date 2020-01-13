@@ -18,7 +18,7 @@ export class FeedbackComponent implements OnInit {
   ngOnInit() {
     this.feedbackForm = new FormGroup({
       email    : new FormControl(),
-      message    : new FormControl(),
+      message    : new FormControl()
     });
   }
 
