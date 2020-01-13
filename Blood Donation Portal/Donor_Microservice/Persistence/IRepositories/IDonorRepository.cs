@@ -13,6 +13,8 @@ namespace Donor_Microservice.Persistence.IRepositories
         public Task<Donor> GetDonorAsync(Guid id);
         public Task<ActionResult<Donor>> DonorRegister(Donor donor);
 
+        public IEnumerable<string> GetDonorEmails(string county);
+
 
     }
 }

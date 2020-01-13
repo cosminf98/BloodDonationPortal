@@ -1,6 +1,119 @@
 ﻿{
   "ReRoutes": [
     {
+      "DownstreamPathTemplate": "/api/hospitalaccounts/{url}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44301
+        }
+      ],
+      "UpstreamPathTemplate": "/api/hospitalaccounts/{url}"
+    },
+    {
+      "DownstreamPathTemplate": "/api/mobilebloodbanks/{url}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44301
+        }
+      ],
+      "UpstreamPathTemplate": "/api/mobilebloodbanks/{url}"
+    },
+    {
+      "DownstreamPathTemplate": "/api/hospitals/{url}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44301
+        }
+      ],
+      "UpstreamPathTemplate": "/api/hospitals/{url}"
+    },
+    {
+      "DownstreamPathTemplate": "/api/donoraccounts/{url}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44302
+        }
+      ],
+      "UpstreamPathTemplate": "/api/donoraccounts/{url}"
+    },
+    {
+      "DownstreamPathTemplate": "/api/donors/{url}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44302
+        }
+      ],
+      "UpstreamPathTemplate": "/api/donors/{url}"
+    },
+    {
+      "DownstreamPathTemplate": "/api/privatenotifications/{url}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44303
+        }
+      ],
+      "UpstreamPathTemplate": "/api/privatenotifications/{url}"
+    },
+    {
+      "DownstreamPathTemplate": "/api/publicnotifications/{url}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44303
+        }
+      ],
+      "UpstreamPathTemplate": "/api/publicnotifications/{url}"
+    },
+    {
+      "DownstreamPathTemplate": "/api/feedbacks/{url}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44304
+        }
+      ],
+      "UpstreamPathTemplate": "/api/feedbacks/{url}"
+    },
+
+
+    "------------------------------------------",
+    {
+      "DownstreamPathTemplate": "/api/hospitalaccounts",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44301
+        }
+      ],
+      "UpstreamPathTemplate": "/api/hospitalaccounts"
+    },
+    {
+      "DownstreamPathTemplate": "/api/mobilebloodbanks",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44301
+        }
+      ],
+      "UpstreamPathTemplate": "/api/mobilebloodbanks"
+    },
+    {
       "DownstreamPathTemplate": "/api/hospitals",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
@@ -9,25 +122,10 @@
           "Port": 44301
         }
       ],
-      "UpstreamPathTemplate": "/api/hospitals",
-      "UpstreamHttpMethod": [],
-      "Key":  "all-hospitals"
+      "UpstreamPathTemplate": "/api/hospitals"
     },
     {
-      "DownstreamPathTemplate": "/api/hospitals/{city}",
-      "DownstreamScheme": "https",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 44301
-        }
-      ],
-      "UpstreamPathTemplate": "/api/hospitals/{city}",
-      "UpstreamHttpMethod": [],
-      "Key": "city-hospitals"
-    },
-    {
-      "DownstreamPathTemplate": "/api/donors/{id}",
+      "DownstreamPathTemplate": "/api/donoraccounts",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
@@ -35,25 +133,51 @@
           "Port": 44302
         }
       ],
-      "UpstreamPathTemplate": "/api/donors/{id}",
-      "UpstreamHttpMethod": [],
-      "Key": "donor-account"
-    }
-  ],
-  "Aggregates": [
-    {
-      "ReRouteKeys": [
-        "donor-account",
-        "all-hospitals"
-      ],
-      "UpstreamPathTemplate": "/api/donor/{id}/hospitals"
+      "UpstreamPathTemplate": "/api/donoraccounts"
     },
     {
-      "ReRouteKeys": [
-        "city-hospitals",
-        "donor-account"
+      "DownstreamPathTemplate": "/api/donors",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44302
+        }
       ],
-      "UpstreamPathTemplate": "/api/donor/{id}/hospitals/{city}"
+      "UpstreamPathTemplate": "/api/donors"
+    },
+    {
+      "DownstreamPathTemplate": "/api/privatenotifications",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44303
+        }
+      ],
+      "UpstreamPathTemplate": "/api/privatenotifications"
+    },
+    {
+      "DownstreamPathTemplate": "/api/publicnotifications",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44303
+        }
+      ],
+      "UpstreamPathTemplate": "/api/publicnotifications"
+    },
+    {
+      "DownstreamPathTemplate": "/api/feedbacks",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44304
+        }
+      ],
+      "UpstreamPathTemplate": "/api/feedbacks"
     }
   ],
   "GlobalConfiguration": {

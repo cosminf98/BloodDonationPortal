@@ -38,5 +38,11 @@ namespace Donor_Microservice.Persistence.Repositories
             await _context.SaveChangesAsync();
             return donor;
         }
+
+        public IEnumerable<string> GetDonorEmails(string county)
+        {
+            var emails = _context.Donors.Where(d => d.County.Contains(county)).Select(don => don.Email).ToList();
+            return emails;
+        }
     }
 }

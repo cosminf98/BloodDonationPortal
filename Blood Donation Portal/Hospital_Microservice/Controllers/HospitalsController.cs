@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Hospital_Microservice.Models;
 using Hospital_Microservice.Persistence.Contexts;
 using Hospital_Microservice.Services;
@@ -16,12 +15,12 @@ namespace Hospital_Microservice.Controllers
     [ApiController]
     public class HospitalsController : ControllerBase
     {
-        private readonly HospitalDbContext _context;
+        //private readonly HospitalDbContext _context;
         private readonly IHospitalService _service;
 
-        public HospitalsController(HospitalDbContext context, IHospitalService service)
+        public HospitalsController(IHospitalService service)
         {
-            _context = context;
+            //_context = context;
             _service = service;
         }
 
@@ -35,9 +34,9 @@ namespace Hospital_Microservice.Controllers
             return cities.ToList();
         }
 
-        private bool HospitalExists(Guid id)
-        {
-            return _context.Hospitals.Any(e => e.Id == id);
-        }
+        //private bool HospitalExists(Guid id)
+        //{
+        //    return _context.Hospitals.Any(e => e.Id == id);
+        //}
     }
 }

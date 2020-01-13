@@ -114,3 +114,6 @@ C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal
 C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\Ocelot.dll
 C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\obj\Debug\netcoreapp3.0\API_Gateway.csprojAssemblyReference.cache
 C:\Users\calin\Documents\GitHub\Latest\BloodDonationPortal\Blood Donation Portal\API_Gateway\obj\Debug\netcoreapp3.0\API_Gateway.csproj.CopyComplete
+E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.NodeServices.dll
+E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.dll
+E:\Facultate\.NET - Introducere\PROJECT\Blood Donation Portal\API_Gateway\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.SpaServices.Extensions.dll

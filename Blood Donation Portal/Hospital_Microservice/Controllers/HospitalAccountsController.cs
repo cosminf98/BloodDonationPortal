@@ -8,9 +8,13 @@ using System.Threading.Tasks;
 using Hospital_Microservice.AuthorizationRequirements;
 using Hospital_Microservice.DTOs;
 using Hospital_Microservice.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using MailKit.Net.Smtp;
+using MailKit;
+using MimeKit;
 using Microsoft.IdentityModel.Tokens;
 
 namespace Hospital_Microservice.Controllers
@@ -91,5 +95,11 @@ namespace Hospital_Microservice.Controllers
             }
             return Unauthorized("Unauthoriezd");
         }
+        //[HttpPost]
+        //[AllowAnonymous]
+        //public async Task<ActionResult> ForgotPassword(string email)
+        //{
+            
+        //}
     }
 }

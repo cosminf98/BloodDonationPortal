@@ -63,7 +63,10 @@ namespace Notifications_Microservice
             services.AddScoped<INotificationService, NotificationService>();
             services.AddScoped<IPublicNotificationRepository, PublicNotificationRepository>();
             services.AddScoped<IPublicNotificationService, PublicNotificationService>();
-  
+            services.AddScoped<ICallToActionRepository, CallToActionRepository>();
+            services.AddScoped<ICallToActionService, CallToActionService>();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
