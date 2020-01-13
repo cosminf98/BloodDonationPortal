@@ -98,7 +98,20 @@ namespace Donor_Microservice.Controllers
             return Ok();
         }
 
+        //PATCH: api/donors/modifydonordata/email
+        [Authorize]
+        [HttpPatch("modifydonordata/{email}")]
+        public async Task<ActionResult<InformationToModify>> ModifyDonorData(string email, [FromBody] InformationToModify info)
+        {
+            var identity = HttpContext.User.Identity as ClaimsIdentity;
 
+            if (_service.Authorize(identity, "DonorEmail"))
+            {
+                var infos = await _service.ModifyDonorData(email, info);
+                return Ok(infos);
+            }
+            return Unauthorized("Unauth");
+        }
 
     }
 }

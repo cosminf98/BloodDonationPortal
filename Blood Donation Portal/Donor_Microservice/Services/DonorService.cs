@@ -30,6 +30,11 @@ namespace Donor_Microservice.Services
             return donation;
         }
 
+        public async Task<InformationToModify> ModifyDonorData(string email, InformationToModify info)
+        {
+            await _donorRepository.ModifyDonorData(email, info);
+            return info;
+        }
         public async Task<IEnumerable<Donation>> GetDonorHistory(Guid id)
         {
             var history = await _donorRepository.GetDonorHistory(id);

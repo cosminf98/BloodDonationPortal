@@ -20,6 +20,16 @@ namespace Donor_Microservice.Persistence.Repositories
             await _context.SaveChangesAsync();
             return donation;
         }
+        public async Task<InformationToModify> ModifyDonorData(string email, InformationToModify info)
+        {
+            Donor donor = _context.Donors.Where(d => d.Email.ToLower().Equals(email.ToLower())).Single();
+            donor.FirstName = info.FirstName;
+            donor.LastName = info.LastName;
+            donor.City = info.City;
+            donor.County = info.County;
+            await _context.SaveChangesAsync();
+            return info;
+        }
 
         public async Task<Donor> GetDonorAsync(Guid id)
         {
