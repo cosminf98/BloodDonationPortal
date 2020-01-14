@@ -1,11 +1,23 @@
 <div class="back is-fullheight">
     <div class="container">
-        <h3 class="title" *ngFor="let hospital of hospitals | slice:0:1; let i=index;">Hospitals near {{hospital.city}}:</h3>
-        <ul>
-            <li class="text" *ngFor="let hospital of hospitals;">
-               * {{hospital.name}} : {{hospital.address}}
-            </li>
-        </ul>
+        <div>
+            <h3 class="title" *ngFor="let hospital of hospitals | slice:0:1; let i=index;">Hospitals near {{hospital.city}}:</h3>
+            <ul>
+                <li class="text" *ngFor="let hospital of hospitals;">
+                * {{hospital.name}} : {{hospital.address}}
+                </li>
+            </ul>
+        </div>
+        
+        <div>
+            <h3 class="title">Mobile Banks</h3>
+            <ul>
+                <li class="text" *ngFor="let mobilebank of mobilebanks;">
+                * {{mobilebank.name}}  {{mobilebank.about}} {{mobilebank.datesAndLocations}}
+                </li>
+            </ul>
+        </div>
+
     </div>
     <div class="search">
         <input  [(ngModel)]="city" />

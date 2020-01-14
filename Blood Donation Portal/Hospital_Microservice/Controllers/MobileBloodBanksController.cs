@@ -10,7 +10,7 @@ using System.Security.Claims;
 
 namespace Hospital_Microservice.Controllers
 {
-    [Authorize]
+    
     [Route("api/[controller]")]
     [ApiController]
     public class MobileBloodBanksController : ControllerBase

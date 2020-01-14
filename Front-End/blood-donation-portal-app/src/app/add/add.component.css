@@ -13,12 +13,17 @@
     font-size: 25px;
   }
 
-  .btn{
+  .btn,.btn-submit{
     background-color:  #FB8C81;
     border-radius: 5px;
-    width : 10%;
+    width : 20%;
     margin-top: 2.2%;
     height: 20px;
+  }
+
+  .btn-submit{
+    width : 40%;
+    height: 30px;
   }
 
   .title{
@@ -38,3 +43,38 @@
     width: 50%;
     float: left;
   }
+
+  .form-wrapper{
+    background-color: white;
+    width: 50%;
+    height: 80%;
+    margin-left: 26%;
+    position: relative;
+    top: 7%;
+    padding-top: 20px;
+  }
+  
+  .form-control{
+    width: 100%;
+    border-radius: 5px;
+    background-color:	#DCDCDC;
+    height: 35px;
+  }
+  
+  .form-group{
+    width: 100%;
+  }
+  
+  .form{
+    margin: auto;
+    width: 80%;
+  }
+
+  .text-muted{
+    font-size: 25px;
+  }
+
+  input{
+    font-size: 25px;
+  }
+ 

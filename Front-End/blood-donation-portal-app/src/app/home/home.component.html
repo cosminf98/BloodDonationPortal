@@ -1,14 +1,13 @@
 
 <div class="hero is-info is-fullheight is-bold">
-  <div class="hero-body">
-    <div class="container">
-      <div class="logo">
-        <div class="notifications">
-          
+  <h3 class="title text" id="notifications">Notifications</h3>
+      <div class="logo" id="logo">
+        <div class="notifications" id="hidden">
+          <ul>
+            <li class="text" *ngFor="let publicNotification of publicNotifications;">
+            * {{publicNotification.city}} / {{publicNotification.county}} {{publicNotification.bloodTypeNeeded}} {{publicNotification.donationCenter}}
+            </li>
+        </ul>
         </div>
-
-      </div>
-
     </div>
-  </div>
 </div>

@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.JsonPatch;
 
 namespace Hospital_Microservice.Controllers
 {
-    [Authorize]
+   
     [Route("api/[controller]")]
     [ApiController]
     public class HospitalsController : ControllerBase

@@ -36,7 +36,8 @@ export class FeedbackComponent implements OnInit {
         .subscribe(
           (data:any) => {
             console.log(data)
-              this.notifierService.notify("success", "You sent feedback!");
+            this.notifierService.notify("success", "You sent feedback!");
+            window.location.replace("http://localhost:4200");
           });
           
       console.log(json);

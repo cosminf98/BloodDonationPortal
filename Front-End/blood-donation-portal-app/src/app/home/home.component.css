@@ -75,3 +75,19 @@ li:hover{
   font-size: 30px;
   cursor: pointer;
 }
+
+.text{
+  color: #696969;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+h3{
+  text-align: center;
+  margin-bottom: 10%;
+  color: #696969;
+}
+
+.title{
+  font-size: 40px;
+}

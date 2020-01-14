@@ -8,8 +8,15 @@
             <h3 class="title text">Add a donation</h3>
             <button class="btn text" (click)="addDonation()"></button>
         </div>
+        <div class="buttons">
+            <h3 class="title text">Add a call to action</h3>
+            <button class="btn text" (click)="addCallToAction()"></button>
+        </div>
     </div>
-    <form class="form mobilebank" id="mobilebank" [formGroup]="mobilebankForm" method="post" (ngSubmit)="onSubmitMobileBank()" novalidate hidden>
+
+    <notifier-container></notifier-container>
+
+    <form class="form mobilebank" id="mobilebank" [formGroup]="mobilebankForm" method="post" (ngSubmit)="onSubmitMobileBank()" novalidate>
         <div class="form-group">
             <div class="text" asp-for="name">Name</div>
               <input asp-for="name" class="form-control" formControlName="name"/>
@@ -33,12 +40,57 @@
               <input asp-for="city" class="form-control" formControlName="city"/>
             <span asp-validation-for="city" class="text-muted"></span>
         </div>
+
+        <div class="form-group">
+            <input type="submit" value="Submit" class="btn-submit text"/>
+        </div>
     </form>
 
-    <form class="form donation" id="donation" [formGroup]="donationForm" method="post" (ngSubmit)="onSubmitDonation()" novalidate hidden>
+    <ul>
+        <li class="text" *ngFor="let donor of donors;">
+           * {{donor.FirstName}}  {{donor.LastName}} {{donor.City}} {{donor.County}} {{donor.LastName}}
+        </li>
+    </ul>
+
+    <form class="form donation" id="donation" [formGroup]="donationForm" method="post" (ngSubmit)="onSubmitDonation()" novalidate>
 
     </form>
 
-    <notifier-container></notifier-container>
+    <form class="form callToAction" id="callToAction" [formGroup]="callToActionForm" method="post" (ngSubmit)="onSubmitCallToAction()" novalidate>
+        <div class="form-group">
+            <div class="text" asp-for="bloodtypeneeded">Blood Type Needed</div>
+              <input list="blood-type" asp-for="bloodtypeneeded" class="form-control" formControlName="bloodtypeneeded"/>
+              <datalist id="blood-type">
+                <option value="A+">
+                <option value="A-">
+                <option value="B+">
+                <option value="B-">
+                <option value="AB+">
+                <option value="AB-">
+                <option value="O+">
+                <option value="O-">
+              </datalist>
+            <span asp-validation-for="bloodtypeneeded" class="text-muted"></span>
+        </div>
+
+        <div class="form-group">
+            <div class="text" asp-for="hospitalcenter">Hospital Center</div>
+              <input asp-for="hospitalcenter" class="form-control" formControlName="hospitalcenter"/>
+            <span asp-validation-for="hospitalcenter" class="text-muted"></span>
+        </div>
+
+        <div class="form-group">
+            <div class="text" asp-for="county">County</div>
+              <input asp-for="county" class="form-control" formControlName="county"/>
+            <span asp-validation-for="county" class="text-muted"></span>
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Submit" class="btn-submit text"/>
+        </div>
+
+    </form>
+
+    
 </div>
   

@@ -50,7 +50,7 @@
 
         <div class="form-group">
           <div class="text" asp-for="confirm-password">Confirm Password</div>
-          <input asp-for="confirm-password" type="password" class="form-control"/>
+          <input asp-for="confirm-password" type="password" class="form-control" formControlName="confirmPassword"/>
           <span asp-validation-for="confirm-password" class="text-muted"></span>
         </div>
 
@@ -63,6 +63,7 @@
       </form>
       <div class="lighter-text">Do you have an account?</div>
       <div class="login-button text" routerLink="/login/login-h">Login</div>
+      <notifier-container></notifier-container>
     </div>
   </div>
   

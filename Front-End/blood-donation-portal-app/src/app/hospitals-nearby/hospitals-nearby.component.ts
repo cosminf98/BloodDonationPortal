@@ -9,6 +9,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 export class HospitalsNearbyComponent implements OnInit {
   SERVER_URL: any;
   hospitals: any;
+  mobilebanks: any;
   httpOptions: { headers: HttpHeaders; };
   city:string= "";
   token: any;
@@ -32,7 +33,11 @@ export class HospitalsNearbyComponent implements OnInit {
       console.log(response);
       this.user = response;
       this.searchByCityOrCounty(this.user.city);
+      this.getMobileBanks();
     });
+
+    
+    
 
   }
 
@@ -43,6 +48,18 @@ export class HospitalsNearbyComponent implements OnInit {
     this.httpClient.get(this.SERVER_URL,this.httpOptions).subscribe((response)=>{
       console.log(response);
       this.hospitals = response;
+    });
+  }
+
+  getMobileBanks(){
+    this.SERVER_URL = "https://localhost:44301/api/mobilebloodbanks" ;
+    this.httpOptions = {
+      headers: new HttpHeaders({'Content-Type': 'application/json'})
+    };
+
+    this.httpClient.get(this.SERVER_URL,this.httpOptions).subscribe((response)=>{
+      console.log(response);
+      this.mobilebanks = response;
     });
   }
 
